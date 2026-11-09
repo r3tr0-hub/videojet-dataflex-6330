@@ -1,0 +1,5604 @@
+[
+  {
+    "path": "CLARiTYConfig/ZBC2.dll",
+    "types": [
+      {
+        "index": 29,
+        "name": "IZBC2MasterSession",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "SetSerialConnection",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lComPort",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lBaudRate",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SetTCPIPConnection",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrAddress",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lPort",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ConnectionStatus",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x50",
+                "flags": 10,
+                "type": "USERDEFINED(EConnectionStatus)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "AddConnectionStatusMonitor",
+            "member_id": 1610678275,
+            "vtable_offset": 24,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0x60",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x19)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pStatusmonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitorId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoveConnectionStatusMonitor",
+            "member_id": 1610678276,
+            "vtable_offset": 28,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMonitorId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ProtocolVersion",
+            "member_id": 1610678277,
+            "vtable_offset": 32,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "FeatureBitMask",
+            "member_id": 1610678278,
+            "vtable_offset": 36,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x10",
+                "flags": 10,
+                "type": "UI4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestInformation",
+            "member_id": 1610678279,
+            "vtable_offset": 40,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pTags",
+                "type_raw": "0x70",
+                "flags": 1,
+                "type": "USERDEFINED(EIRQTag)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestCIFFFile",
+            "member_id": 1610678280,
+            "vtable_offset": 44,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestCIFFDataFile",
+            "member_id": 1610678281,
+            "vtable_offset": 48,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestDirectoryListing",
+            "member_id": 1610678282,
+            "vtable_offset": 52,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrSubDirectory",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestBitmap",
+            "member_id": 1610678283,
+            "vtable_offset": 56,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sPrintheadId",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sRequiredWidth",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sRequiredHeight",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestGenericFile",
+            "member_id": 1610678284,
+            "vtable_offset": 60,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFile",
+            "member_id": 1610678285,
+            "vtable_offset": 64,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileNameToTransmit",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFullLocalFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "StartMultipleFileTransfer",
+            "member_id": 1610678286,
+            "vtable_offset": 68,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lNumberOfFiles",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "i64TotalFileSize",
+                "type_raw": "0x80140014",
+                "flags": 1,
+                "type": "I8",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "EndMultipleFileTransfer",
+            "member_id": 1610678287,
+            "vtable_offset": 72,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "DeleteFile",
+            "member_id": 1610678288,
+            "vtable_offset": 76,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFileNotFound",
+            "member_id": 1610678289,
+            "vtable_offset": 80,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectJob",
+            "member_id": 1610678290,
+            "vtable_offset": 84,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "UpdateJobData",
+            "member_id": 1610678291,
+            "vtable_offset": 88,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MUpdateJobData",
+            "member_id": 1610678292,
+            "vtable_offset": 92,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "wNoOfJobUpdates",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMCIFFData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendCommand",
+            "member_id": 1610678293,
+            "vtable_offset": 96,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eCommand",
+                "type_raw": "0x80",
+                "flags": 1,
+                "type": "USERDEFINED(ECommandId)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LockFeature",
+            "member_id": 1610678294,
+            "vtable_offset": 100,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "EFeatureId",
+                "type_raw": "0x88",
+                "flags": 1,
+                "type": "USERDEFINED(EFeatureId)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ELockState",
+                "type_raw": "0x90",
+                "flags": 1,
+                "type": "USERDEFINED(ELockState)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SetClock",
+            "member_id": 1610678295,
+            "vtable_offset": 104,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "date",
+                "type_raw": "0x80070007",
+                "flags": 1,
+                "type": "DATE",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ClearErrors",
+            "member_id": 1610678296,
+            "vtable_offset": 108,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorNames",
+                "type_raw": "0x0",
+                "flags": 1,
+                "type": "BSTR*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorTypeFlags",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendXML",
+            "member_id": 1610678297,
+            "vtable_offset": 112,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrXML",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoteDBSendQueryResults",
+            "member_id": 1610678298,
+            "vtable_offset": 116,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "sBlockCount",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrPath",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrLocation",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "EJobNamesType",
+                "type_raw": "0x98",
+                "flags": 1,
+                "type": "USERDEFINED(EJobNamesType)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoteDBSendJobNames",
+            "member_id": 1610678299,
+            "vtable_offset": 120,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "sBlockId",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pJobNames",
+                "type_raw": "0x0",
+                "flags": 1,
+                "type": "BSTR*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Shell",
+            "member_id": 1610678300,
+            "vtable_offset": 124,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrEXE",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrCMD",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "PollForRequests",
+            "member_id": 1610678301,
+            "vtable_offset": 128,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestAsynchronousUpdate",
+            "member_id": 1610678302,
+            "vtable_offset": 132,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "BeginRemoteAdvise",
+            "member_id": 1610678303,
+            "vtable_offset": 136,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0xa8",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x25)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pInfoMgr",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrGraftPoint",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "riid2",
+                "type_raw": "0xb8",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x31)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppRemoteAdvise",
+                "type_raw": "0xc8",
+                "flags": 10,
+                "type": "VOID**",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SubscribeAsynchronousUpdates",
+            "member_id": 1610678304,
+            "vtable_offset": 140,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "Op",
+                "type_raw": "0xd0",
+                "flags": 1,
+                "type": "USERDEFINED(EAsyncSubsOp)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pUpdateItems",
+                "type_raw": "0xe0",
+                "flags": 1,
+                "type": "USERDEFINED(EAsyncSubscriptions)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pItemFlags",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lCountUpdateItems",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "EraseQueueItems",
+            "member_id": 1610678305,
+            "vtable_offset": 144,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pQueueItemIDs",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFileWithDate",
+            "member_id": 1610678306,
+            "vtable_offset": 148,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileNameToTransmit",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFullLocalFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectJobWithID",
+            "member_id": 1610678307,
+            "vtable_offset": 152,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "UpdateJobDataWithID",
+            "member_id": 1610678308,
+            "vtable_offset": 156,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LineSelect",
+            "member_id": 1610678309,
+            "vtable_offset": 160,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lLineID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lLineSelectFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "date",
+                "type_raw": "0x80070007",
+                "flags": 1,
+                "type": "DATE",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ConfirmedPrint",
+            "member_id": 1610678310,
+            "vtable_offset": 164,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMillisecondTimeout",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "65fe7e6e-6373-470a-b15f-7369171878a3"
+      },
+      {
+        "index": 35,
+        "name": "IZBC2SendProgressMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnSendProgress",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "dProgress",
+                "type_raw": "0x80050005",
+                "flags": 1,
+                "type": "R8",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "1c03f20e-07a9-4254-bbe4-ccced0649c8f"
+      },
+      {
+        "index": 37,
+        "name": "IZBC2ErrorMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnCommsError",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "OnProtocolError",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "eFailureReason",
+                "type_raw": "0x100",
+                "flags": 1,
+                "type": "USERDEFINED(EReasonForFailure)",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "30b58696-a83c-4a1d-a87f-f923c16e5d41"
+      },
+      {
+        "index": 38,
+        "name": "IZBC2MasterResponseMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnSuccess",
+            "member_id": 1610743808,
+            "vtable_offset": 20,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "OnMessage",
+            "member_id": 1610743809,
+            "vtable_offset": 24,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "riid",
+                "type_raw": "0x110",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x49)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMessage",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 3700,
+        "guid": "0fd14bed-f388-49cf-bb37-4fbe3889793e"
+      },
+      {
+        "index": 40,
+        "name": "IZBC2InformationMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "TagCount",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TagAt",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lIndex",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppTag",
+                "type_raw": "0x118",
+                "flags": 10,
+                "type": "IUNKNOWN*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "016827a4-422d-483b-9b3f-323557fdfa11"
+      },
+      {
+        "index": 41,
+        "name": "IZBC2InformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "TagId",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x70",
+                "flags": 10,
+                "type": "USERDEFINED(EIRQTag)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "9ea3599c-164c-4f0b-95d6-89e468be6369"
+      },
+      {
+        "index": 42,
+        "name": "IZBC2StatusTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "MachineStateFlags",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MachineActionFlags",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ActiveErrorType",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ErrorString",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "8508eac2-f58a-4d66-a6e3-4ee3b032a9f0"
+      },
+      {
+        "index": 43,
+        "name": "IZBC2CountsAndPerformanceTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "BatchCount",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TotalCount",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "PacksPerMinute",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "NominalSpeed",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ShortTermSpeed",
+            "member_id": 1610743812,
+            "vtable_offset": 32,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ShortTermEfficiency",
+            "member_id": 1610743813,
+            "vtable_offset": 36,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LongTermSpeed",
+            "member_id": 1610743814,
+            "vtable_offset": 40,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LongTermEfficiency",
+            "member_id": 1610743815,
+            "vtable_offset": 44,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TrendSpeed",
+            "member_id": 1610743816,
+            "vtable_offset": 48,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TrendEfficiency",
+            "member_id": 1610743817,
+            "vtable_offset": 52,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "d5da9a73-fece-48f6-8c9b-8911ae631b5c"
+      },
+      {
+        "index": 44,
+        "name": "IZBC2JobInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "JobName",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "JobFlags",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ProductsRemaining",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectionDateTime",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x128",
+                "flags": 10,
+                "type": "DATE*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "2443df83-9788-4e1a-8e27-eb04cbd8013c"
+      },
+      {
+        "index": 45,
+        "name": "IZBC2MachineInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "MachineName",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MachineModel",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "0a83a2bf-dae6-4460-8e60-20fddcb24f69"
+      },
+      {
+        "index": 47,
+        "name": "IZBC2CurrentTimeInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "CurrentTime",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x128",
+                "flags": 10,
+                "type": "DATE*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "7308b172-3b8c-49db-9763-e1fb53443ebf"
+      },
+      {
+        "index": 54,
+        "name": "IZBC2FileTransmitMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "Type",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x130",
+                "flags": 10,
+                "type": "USERDEFINED(EFileTypes)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Size",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Name",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Data",
+            "member_id": 1610678275,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x140",
+                "flags": 10,
+                "type": "SAFEARRAY(UI1)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Save",
+            "member_id": 1610678276,
+            "vtable_offset": 28,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFullFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "456a427e-5a2b-41cb-9dcb-66bb8399e6b0"
+      },
+      {
+        "index": 57,
+        "name": "IZBC2XMLMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "XMLString",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "XMLDocument",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0x158",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x55)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppXMLDoc",
+                "type_raw": "0xc8",
+                "flags": 10,
+                "type": "VOID**",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Save",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFullFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "69fe9248-7f94-405e-9c58-6c57f0b30ce2"
+      }
+    ]
+  },
+  {
+    "path": "Data/ZBC2.dll",
+    "types": [
+      {
+        "index": 29,
+        "name": "IZBC2MasterSession",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "SetSerialConnection",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lComPort",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lBaudRate",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SetTCPIPConnection",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrAddress",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lPort",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ConnectionStatus",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x50",
+                "flags": 10,
+                "type": "USERDEFINED(EConnectionStatus)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "AddConnectionStatusMonitor",
+            "member_id": 1610678275,
+            "vtable_offset": 24,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0x60",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x19)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pStatusmonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitorId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoveConnectionStatusMonitor",
+            "member_id": 1610678276,
+            "vtable_offset": 28,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMonitorId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ProtocolVersion",
+            "member_id": 1610678277,
+            "vtable_offset": 32,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "FeatureBitMask",
+            "member_id": 1610678278,
+            "vtable_offset": 36,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x10",
+                "flags": 10,
+                "type": "UI4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestInformation",
+            "member_id": 1610678279,
+            "vtable_offset": 40,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pTags",
+                "type_raw": "0x70",
+                "flags": 1,
+                "type": "USERDEFINED(EIRQTag)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestCIFFFile",
+            "member_id": 1610678280,
+            "vtable_offset": 44,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestCIFFDataFile",
+            "member_id": 1610678281,
+            "vtable_offset": 48,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestDirectoryListing",
+            "member_id": 1610678282,
+            "vtable_offset": 52,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrSubDirectory",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestBitmap",
+            "member_id": 1610678283,
+            "vtable_offset": 56,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sPrintheadId",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sRequiredWidth",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "sRequiredHeight",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestGenericFile",
+            "member_id": 1610678284,
+            "vtable_offset": 60,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFile",
+            "member_id": 1610678285,
+            "vtable_offset": 64,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileNameToTransmit",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFullLocalFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "StartMultipleFileTransfer",
+            "member_id": 1610678286,
+            "vtable_offset": 68,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lNumberOfFiles",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "i64TotalFileSize",
+                "type_raw": "0x80140014",
+                "flags": 1,
+                "type": "I8",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "EndMultipleFileTransfer",
+            "member_id": 1610678287,
+            "vtable_offset": 72,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "DeleteFile",
+            "member_id": 1610678288,
+            "vtable_offset": 76,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFileNotFound",
+            "member_id": 1610678289,
+            "vtable_offset": 80,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectJob",
+            "member_id": 1610678290,
+            "vtable_offset": 84,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "UpdateJobData",
+            "member_id": 1610678291,
+            "vtable_offset": 88,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MUpdateJobData",
+            "member_id": 1610678292,
+            "vtable_offset": 92,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "wNoOfJobUpdates",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMCIFFData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendCommand",
+            "member_id": 1610678293,
+            "vtable_offset": 96,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eCommand",
+                "type_raw": "0x80",
+                "flags": 1,
+                "type": "USERDEFINED(ECommandId)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LockFeature",
+            "member_id": 1610678294,
+            "vtable_offset": 100,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "EFeatureId",
+                "type_raw": "0x88",
+                "flags": 1,
+                "type": "USERDEFINED(EFeatureId)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ELockState",
+                "type_raw": "0x90",
+                "flags": 1,
+                "type": "USERDEFINED(ELockState)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SetClock",
+            "member_id": 1610678295,
+            "vtable_offset": 104,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "date",
+                "type_raw": "0x80070007",
+                "flags": 1,
+                "type": "DATE",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ClearErrors",
+            "member_id": 1610678296,
+            "vtable_offset": 108,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorNames",
+                "type_raw": "0x0",
+                "flags": 1,
+                "type": "BSTR*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorTypeFlags",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendXML",
+            "member_id": 1610678297,
+            "vtable_offset": 112,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrXML",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoteDBSendQueryResults",
+            "member_id": 1610678298,
+            "vtable_offset": 116,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "sBlockCount",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrPath",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrLocation",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "EJobNamesType",
+                "type_raw": "0x98",
+                "flags": 1,
+                "type": "USERDEFINED(EJobNamesType)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RemoteDBSendJobNames",
+            "member_id": 1610678299,
+            "vtable_offset": 120,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "sBlockId",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pJobNames",
+                "type_raw": "0x0",
+                "flags": 1,
+                "type": "BSTR*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Shell",
+            "member_id": 1610678300,
+            "vtable_offset": 124,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrEXE",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrCMD",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "PollForRequests",
+            "member_id": 1610678301,
+            "vtable_offset": 128,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "RequestAsynchronousUpdate",
+            "member_id": 1610678302,
+            "vtable_offset": 132,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "BeginRemoteAdvise",
+            "member_id": 1610678303,
+            "vtable_offset": 136,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0xa8",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x25)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pInfoMgr",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrGraftPoint",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pErrorMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "riid2",
+                "type_raw": "0xb8",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x31)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppRemoteAdvise",
+                "type_raw": "0xc8",
+                "flags": 10,
+                "type": "VOID**",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SubscribeAsynchronousUpdates",
+            "member_id": 1610678304,
+            "vtable_offset": 140,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "Op",
+                "type_raw": "0xd0",
+                "flags": 1,
+                "type": "USERDEFINED(EAsyncSubsOp)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pUpdateItems",
+                "type_raw": "0xe0",
+                "flags": 1,
+                "type": "USERDEFINED(EAsyncSubscriptions)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pItemFlags",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lCountUpdateItems",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "EraseQueueItems",
+            "member_id": 1610678305,
+            "vtable_offset": 144,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "cMax",
+                "type_raw": "0x80020002",
+                "flags": 1,
+                "type": "I2",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pQueueItemIDs",
+                "type_raw": "0x8",
+                "flags": 1,
+                "type": "I4*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SendFileWithDate",
+            "member_id": 1610678306,
+            "vtable_offset": 148,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "eFileType",
+                "type_raw": "0x78",
+                "flags": 1,
+                "type": "USERDEFINED(EFileTypes)",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFileNameToTransmit",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "bstrFullLocalFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectJobWithID",
+            "member_id": 1610678307,
+            "vtable_offset": 152,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "UpdateJobDataWithID",
+            "member_id": 1610678308,
+            "vtable_offset": 156,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lJobFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "cMax",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pCiffData",
+                "type_raw": "0x20",
+                "flags": 1,
+                "type": "UI1*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LineSelect",
+            "member_id": 1610678309,
+            "vtable_offset": 160,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lLineID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lLineSelectFlags",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lProductLimit",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "date",
+                "type_raw": "0x80070007",
+                "flags": 1,
+                "type": "DATE",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lQueueID",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ConfirmedPrint",
+            "member_id": 1610678310,
+            "vtable_offset": 164,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMillisecondTimeout",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMonitor",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "lMessageId",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "65fe7e6e-6373-470a-b15f-7369171878a3"
+      },
+      {
+        "index": 35,
+        "name": "IZBC2SendProgressMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnSendProgress",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "dProgress",
+                "type_raw": "0x80050005",
+                "flags": 1,
+                "type": "R8",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "1c03f20e-07a9-4254-bbe4-ccced0649c8f"
+      },
+      {
+        "index": 37,
+        "name": "IZBC2ErrorMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnCommsError",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "OnProtocolError",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "eFailureReason",
+                "type_raw": "0x100",
+                "flags": 1,
+                "type": "USERDEFINED(EReasonForFailure)",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "30b58696-a83c-4a1d-a87f-f923c16e5d41"
+      },
+      {
+        "index": 38,
+        "name": "IZBC2MasterResponseMonitor",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "OnSuccess",
+            "member_id": 1610743808,
+            "vtable_offset": 20,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "OnMessage",
+            "member_id": 1610743809,
+            "vtable_offset": 24,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lMessageId",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "riid",
+                "type_raw": "0x110",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x49)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "pMessage",
+                "type_raw": "0x800d000d",
+                "flags": 1,
+                "type": "IUNKNOWN",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 3700,
+        "guid": "0fd14bed-f388-49cf-bb37-4fbe3889793e"
+      },
+      {
+        "index": 40,
+        "name": "IZBC2InformationMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "TagCount",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TagAt",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "lIndex",
+                "type_raw": "0x80030003",
+                "flags": 1,
+                "type": "I4",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppTag",
+                "type_raw": "0x118",
+                "flags": 10,
+                "type": "IUNKNOWN*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "016827a4-422d-483b-9b3f-323557fdfa11"
+      },
+      {
+        "index": 41,
+        "name": "IZBC2InformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "TagId",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x70",
+                "flags": 10,
+                "type": "USERDEFINED(EIRQTag)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "9ea3599c-164c-4f0b-95d6-89e468be6369"
+      },
+      {
+        "index": 42,
+        "name": "IZBC2StatusTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "MachineStateFlags",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MachineActionFlags",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ActiveErrorType",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ErrorString",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "8508eac2-f58a-4d66-a6e3-4ee3b032a9f0"
+      },
+      {
+        "index": 43,
+        "name": "IZBC2CountsAndPerformanceTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "BatchCount",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TotalCount",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "PacksPerMinute",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "NominalSpeed",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ShortTermSpeed",
+            "member_id": 1610743812,
+            "vtable_offset": 32,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ShortTermEfficiency",
+            "member_id": 1610743813,
+            "vtable_offset": 36,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LongTermSpeed",
+            "member_id": 1610743814,
+            "vtable_offset": 40,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "LongTermEfficiency",
+            "member_id": 1610743815,
+            "vtable_offset": 44,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TrendSpeed",
+            "member_id": 1610743816,
+            "vtable_offset": 48,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "TrendEfficiency",
+            "member_id": 1610743817,
+            "vtable_offset": 52,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x120",
+                "flags": 10,
+                "type": "I2*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "d5da9a73-fece-48f6-8c9b-8911ae631b5c"
+      },
+      {
+        "index": 44,
+        "name": "IZBC2JobInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "JobName",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "JobFlags",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "ProductsRemaining",
+            "member_id": 1610743810,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "SelectionDateTime",
+            "member_id": 1610743811,
+            "vtable_offset": 28,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x128",
+                "flags": 10,
+                "type": "DATE*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "2443df83-9788-4e1a-8e27-eb04cbd8013c"
+      },
+      {
+        "index": 45,
+        "name": "IZBC2MachineInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "MachineName",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "MachineModel",
+            "member_id": 1610743809,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "0a83a2bf-dae6-4460-8e60-20fddcb24f69"
+      },
+      {
+        "index": 47,
+        "name": "IZBC2CurrentTimeInformationTag",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "CurrentTime",
+            "member_id": 1610743808,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x128",
+                "flags": 10,
+                "type": "DATE*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 4100,
+        "guid": "7308b172-3b8c-49db-9763-e1fb53443ebf"
+      },
+      {
+        "index": 54,
+        "name": "IZBC2FileTransmitMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "Type",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x130",
+                "flags": 10,
+                "type": "USERDEFINED(EFileTypes)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Size",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x8",
+                "flags": 10,
+                "type": "I4*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Name",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Data",
+            "member_id": 1610678275,
+            "vtable_offset": 24,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x140",
+                "flags": 10,
+                "type": "SAFEARRAY(UI1)*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Save",
+            "member_id": 1610678276,
+            "vtable_offset": 28,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFullFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "456a427e-5a2b-41cb-9dcb-66bb8399e6b0"
+      },
+      {
+        "index": 57,
+        "name": "IZBC2XMLMessage",
+        "kind": 3,
+        "kind_name": "interface",
+        "functions": [
+          {
+            "name": "XMLString",
+            "member_id": 1610678272,
+            "vtable_offset": 12,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "pVal",
+                "type_raw": "0x0",
+                "flags": 10,
+                "type": "BSTR*",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "XMLDocument",
+            "member_id": 1610678273,
+            "vtable_offset": 16,
+            "invkind": 2,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "riid",
+                "type_raw": "0x158",
+                "flags": 1,
+                "type": "USERDEFINED(href=0x55)*",
+                "flag_names": [
+                  "in"
+                ]
+              },
+              {
+                "name": "ppXMLDoc",
+                "type_raw": "0xc8",
+                "flags": 10,
+                "type": "VOID**",
+                "flag_names": [
+                  "out",
+                  "retval"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          },
+          {
+            "name": "Save",
+            "member_id": 1610678274,
+            "vtable_offset": 20,
+            "invkind": 1,
+            "return_type_raw": "0x80190019",
+            "parameters": [
+              {
+                "name": "bstrFullFileName",
+                "type_raw": "0x80080008",
+                "flags": 1,
+                "type": "BSTR",
+                "flag_names": [
+                  "in"
+                ]
+              }
+            ],
+            "return_type": "HRESULT"
+          }
+        ],
+        "variables": [],
+        "base_ref": 1,
+        "guid": "69fe9248-7f94-405e-9c58-6c57f0b30ce2"
+      }
+    ]
+  }
+]

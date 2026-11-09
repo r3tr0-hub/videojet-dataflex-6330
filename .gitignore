@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.exe
+*.dll
+*.zip
+*.pcap*
+Reports/
+request.xml
+selftest.txt

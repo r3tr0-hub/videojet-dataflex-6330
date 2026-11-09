@@ -1,0 +1,140 @@
+{
+  "source_sha256": "df4136842b7da9b20f6fc37c851d74016116609694c2eb7f3477e13ba8568fb1",
+  "jobs": [
+    {
+      "fragment_payload_size": 18,
+      "native_parse": {
+        "flags": 0,
+        "limit": 0,
+        "update_id": 0,
+        "data_length": 0
+      },
+      "kind": "SEL",
+      "name": "",
+      "data_hex": "",
+      "flags": 0,
+      "limit": 0,
+      "update_id": 0,
+      "hex": "075012000000000000000000000000000000",
+      "actual_length": 18,
+      "declared_length": 18
+    },
+    {
+      "fragment_payload_size": 26,
+      "native_parse": {
+        "flags": 1,
+        "limit": 100,
+        "update_id": 0,
+        "data_length": 3
+      },
+      "kind": "SEL",
+      "name": "Job",
+      "data_hex": "414243",
+      "flags": 1,
+      "limit": 100,
+      "update_id": 0,
+      "hex": "07501a00000004004a6f62000100000064000000040041424300",
+      "actual_length": 26,
+      "declared_length": 26
+    },
+    {
+      "fragment_payload_size": 50,
+      "native_parse": {
+        "flags": 2147483712,
+        "limit": 123,
+        "update_id": 305419896,
+        "data_length": 12
+      },
+      "kind": "SLU",
+      "name": "Тест",
+      "data_hex": "3c496d616765446174612f3e",
+      "flags": 2147483712,
+      "limit": 123,
+      "update_id": 305419896,
+      "hex": "3050320000000a00000022043504410442040000400000807b000000785634120e0000003c496d616765446174612f3e0000",
+      "actual_length": 50,
+      "declared_length": 50
+    },
+    {
+      "fragment_payload_size": 30,
+      "native_parse": {
+        "flags": 0,
+        "limit": 0,
+        "update_id": 0,
+        "data_length": 0
+      },
+      "kind": "SLU",
+      "name": "Job",
+      "data_hex": "",
+      "flags": 0,
+      "limit": 0,
+      "update_id": 0,
+      "hex": "30501e000000080000004a006f0062000000000000000000000000000000",
+      "actual_length": 30,
+      "declared_length": 30
+    },
+    {
+      "fragment_payload_size": 16,
+      "native_parse": {
+        "flags": 0,
+        "limit": 0,
+        "update_id": 0,
+        "data_length": 0
+      },
+      "kind": "JDU",
+      "name": "",
+      "data_hex": "",
+      "flags": 0,
+      "limit": 0,
+      "update_id": 0,
+      "hex": "08501200000000000000000000000000",
+      "actual_length": 16,
+      "declared_length": 18
+    },
+    {
+      "fragment_payload_size": 24,
+      "native_parse": {
+        "flags": 2147483712,
+        "limit": 7,
+        "update_id": 99,
+        "data_length": 3
+      },
+      "kind": "JDU",
+      "name": "",
+      "data_hex": "414243",
+      "flags": 2147483712,
+      "limit": 7,
+      "update_id": 99,
+      "hex": "08501a000000400000800700000063000000040041424300",
+      "actual_length": 24,
+      "declared_length": 26
+    },
+    {
+      "fragment_payload_size": 30,
+      "native_parse": {
+        "flags": 0,
+        "limit": 0,
+        "update_id": 0,
+        "data_length": 12
+      },
+      "kind": "JDU",
+      "name": "",
+      "data_hex": "3c496d616765446174612f3e",
+      "flags": 0,
+      "limit": 0,
+      "update_id": 0,
+      "hex": "08502000000000000000000000000e003c496d616765446174612f3e0000",
+      "actual_length": 30,
+      "declared_length": 32
+    }
+  ],
+  "responses": {
+    "NUL": "000006000000",
+    "FTC": "0f5006000000",
+    "FNF": "055006000000",
+    "FNF_error3": "05500a00000003000000",
+    "ERR_24": "0d50080000001800",
+    "JUC_99": "22500a00000063000000",
+    "EMX": "115006000000"
+  }
+}

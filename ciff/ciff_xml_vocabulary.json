@@ -1,0 +1,1934 @@
+{
+  "node_names": [
+    {
+      "index": 0,
+      "pointer_slot_va": "0x681aac68",
+      "string_va": "0x6818e150",
+      "text": "*"
+    },
+    {
+      "index": 1,
+      "pointer_slot_va": "0x681aac6c",
+      "string_va": "0x6818e154",
+      "text": "ImageDesign"
+    },
+    {
+      "index": 2,
+      "pointer_slot_va": "0x681aac70",
+      "string_va": "0x6818e16c",
+      "text": "Header"
+    },
+    {
+      "index": 3,
+      "pointer_slot_va": "0x681aac74",
+      "string_va": "0x6818e17c",
+      "text": "SubImage"
+    },
+    {
+      "index": 4,
+      "pointer_slot_va": "0x681aac78",
+      "string_va": "0x6818e190",
+      "text": "GenericSettings"
+    },
+    {
+      "index": 5,
+      "pointer_slot_va": "0x681aac7c",
+      "string_va": "0x6818e1b0",
+      "text": "Units"
+    },
+    {
+      "index": 6,
+      "pointer_slot_va": "0x681aac80",
+      "string_va": "0x6818e1bc",
+      "text": "ErrorLeniency"
+    },
+    {
+      "index": 7,
+      "pointer_slot_va": "0x681aac84",
+      "string_va": "0x6818e1d8",
+      "text": "ClStVersionInfo"
+    },
+    {
+      "index": 8,
+      "pointer_slot_va": "0x681aac88",
+      "string_va": "0x6818e1f8",
+      "text": "LastDownloaded"
+    },
+    {
+      "index": 9,
+      "pointer_slot_va": "0x681aac8c",
+      "string_va": "0x6818e218",
+      "text": "DeveloperLicense"
+    },
+    {
+      "index": 10,
+      "pointer_slot_va": "0x681aac90",
+      "string_va": "0x6818e23c",
+      "text": "DateOffset"
+    },
+    {
+      "index": 11,
+      "pointer_slot_va": "0x681aac94",
+      "string_va": "0x6818e254",
+      "text": "DefaultOffset"
+    },
+    {
+      "index": 12,
+      "pointer_slot_va": "0x681aac98",
+      "string_va": "0x6818e270",
+      "text": "SourceOffset"
+    },
+    {
+      "index": 13,
+      "pointer_slot_va": "0x681aac9c",
+      "string_va": "0x6818e28c",
+      "text": "RndMode"
+    },
+    {
+      "index": 14,
+      "pointer_slot_va": "0x681aaca0",
+      "string_va": "0x6818e29c",
+      "text": "RndType"
+    },
+    {
+      "index": 15,
+      "pointer_slot_va": "0x681aaca4",
+      "string_va": "0x6818e2ac",
+      "text": "RndDay"
+    },
+    {
+      "index": 16,
+      "pointer_slot_va": "0x681aaca8",
+      "string_va": "0x6818e2bc",
+      "text": "Prompt"
+    },
+    {
+      "index": 17,
+      "pointer_slot_va": "0x681aacac",
+      "string_va": "0x6818e2cc",
+      "text": "ResetOnSel"
+    },
+    {
+      "index": 18,
+      "pointer_slot_va": "0x681aacb0",
+      "string_va": "0x6818e2e4",
+      "text": "CurrentOffset"
+    },
+    {
+      "index": 19,
+      "pointer_slot_va": "0x681aacb4",
+      "string_va": "0x6818c39c",
+      "text": "CurrentDate"
+    },
+    {
+      "index": 20,
+      "pointer_slot_va": "0x681aacb8",
+      "string_va": "0x6818e300",
+      "text": "MinOffset"
+    },
+    {
+      "index": 21,
+      "pointer_slot_va": "0x681aacbc",
+      "string_va": "0x6818e314",
+      "text": "MaxOffset"
+    },
+    {
+      "index": 22,
+      "pointer_slot_va": "0x681aacc0",
+      "string_va": "0x6818e328",
+      "text": "RefDate"
+    },
+    {
+      "index": 23,
+      "pointer_slot_va": "0x681aacc4",
+      "string_va": "0x6818e338",
+      "text": "CalcAtCoder"
+    },
+    {
+      "index": 24,
+      "pointer_slot_va": "0x681aacc8",
+      "string_va": "0x6818e350",
+      "text": "Seconds"
+    },
+    {
+      "index": 25,
+      "pointer_slot_va": "0x681aaccc",
+      "string_va": "0x6818e360",
+      "text": "Day"
+    },
+    {
+      "index": 26,
+      "pointer_slot_va": "0x681aacd0",
+      "string_va": "0x6818e368",
+      "text": "Month"
+    },
+    {
+      "index": 27,
+      "pointer_slot_va": "0x681aacd4",
+      "string_va": "0x6818e374",
+      "text": "Year"
+    },
+    {
+      "index": 28,
+      "pointer_slot_va": "0x681aacd8",
+      "string_va": "0x6818e380",
+      "text": "ConnStr"
+    },
+    {
+      "index": 29,
+      "pointer_slot_va": "0x681aacdc",
+      "string_va": "0x6818e390",
+      "text": "DateSQL"
+    },
+    {
+      "index": 30,
+      "pointer_slot_va": "0x681aace0",
+      "string_va": "0x6818e3a0",
+      "text": "DateMask"
+    },
+    {
+      "index": 31,
+      "pointer_slot_va": "0x681aace4",
+      "string_va": "0x6818e3b4",
+      "text": "SubHeader"
+    },
+    {
+      "index": 32,
+      "pointer_slot_va": "0x681aace8",
+      "string_va": "0x6818e3c8",
+      "text": "ImageWidth"
+    },
+    {
+      "index": 33,
+      "pointer_slot_va": "0x681aacec",
+      "string_va": "0x6818e3e0",
+      "text": "ImageHeight"
+    },
+    {
+      "index": 34,
+      "pointer_slot_va": "0x681aacf0",
+      "string_va": "0x6818e3f8",
+      "text": "ImageRotation"
+    },
+    {
+      "index": 35,
+      "pointer_slot_va": "0x681aacf4",
+      "string_va": "0x6818e414",
+      "text": "MaxImageWidth"
+    },
+    {
+      "index": 36,
+      "pointer_slot_va": "0x681aacf8",
+      "string_va": "0x6818e430",
+      "text": "MaxImageHeight"
+    },
+    {
+      "index": 37,
+      "pointer_slot_va": "0x681aacfc",
+      "string_va": "0x6818e450",
+      "text": "XRes"
+    },
+    {
+      "index": 38,
+      "pointer_slot_va": "0x681aad00",
+      "string_va": "0x6818e45c",
+      "text": "YRes"
+    },
+    {
+      "index": 39,
+      "pointer_slot_va": "0x681aad04",
+      "string_va": "0x6818e468",
+      "text": "LastUpdated"
+    },
+    {
+      "index": 40,
+      "pointer_slot_va": "0x681aad08",
+      "string_va": "0x6818e480",
+      "text": "Field"
+    },
+    {
+      "index": 41,
+      "pointer_slot_va": "0x681aad0c",
+      "string_va": "0x6818e48c",
+      "text": "FldType"
+    },
+    {
+      "index": 42,
+      "pointer_slot_va": "0x681aad10",
+      "string_va": "0x6818a3f4",
+      "text": "CLSID"
+    },
+    {
+      "index": 43,
+      "pointer_slot_va": "0x681aad14",
+      "string_va": "0x6818e49c",
+      "text": "Displayed"
+    },
+    {
+      "index": 44,
+      "pointer_slot_va": "0x681aad18",
+      "string_va": "0x6818e4b0",
+      "text": "X"
+    },
+    {
+      "index": 45,
+      "pointer_slot_va": "0x681aad1c",
+      "string_va": "0x6818e4b4",
+      "text": "Y"
+    },
+    {
+      "index": 46,
+      "pointer_slot_va": "0x681aad20",
+      "string_va": "0x6818e4b8",
+      "text": "W"
+    },
+    {
+      "index": 47,
+      "pointer_slot_va": "0x681aad24",
+      "string_va": "0x6818e4bc",
+      "text": "H"
+    },
+    {
+      "index": 48,
+      "pointer_slot_va": "0x681aad28",
+      "string_va": "0x6818e4c0",
+      "text": "Ln"
+    },
+    {
+      "index": 49,
+      "pointer_slot_va": "0x681aad2c",
+      "string_va": "0x6818e4c8",
+      "text": "Orientation"
+    },
+    {
+      "index": 50,
+      "pointer_slot_va": "0x681aad30",
+      "string_va": "0x6818e4e0",
+      "text": "OverrideThis"
+    },
+    {
+      "index": 51,
+      "pointer_slot_va": "0x681aad34",
+      "string_va": "0x6818e4fc",
+      "text": "Inverse"
+    },
+    {
+      "index": 52,
+      "pointer_slot_va": "0x681aad38",
+      "string_va": "0x6818e50c",
+      "text": "Mirror"
+    },
+    {
+      "index": 53,
+      "pointer_slot_va": "0x681aad3c",
+      "string_va": "0x6818e51c",
+      "text": "RenderMode"
+    },
+    {
+      "index": 54,
+      "pointer_slot_va": "0x681aad40",
+      "string_va": "0x6818e534",
+      "text": "CalcData"
+    },
+    {
+      "index": 55,
+      "pointer_slot_va": "0x681aad44",
+      "string_va": "0x6818e548",
+      "text": "LoggedField"
+    },
+    {
+      "index": 56,
+      "pointer_slot_va": "0x681aad48",
+      "string_va": "0x6818e560",
+      "text": "Origin"
+    },
+    {
+      "index": 57,
+      "pointer_slot_va": "0x681aad4c",
+      "string_va": "0x6818e570",
+      "text": "Data"
+    },
+    {
+      "index": 58,
+      "pointer_slot_va": "0x681aad50",
+      "string_va": "0x6818e57c",
+      "text": "Text"
+    },
+    {
+      "index": 59,
+      "pointer_slot_va": "0x681aad54",
+      "string_va": "0x6818e588",
+      "text": "Barcode"
+    },
+    {
+      "index": 60,
+      "pointer_slot_va": "0x681aad58",
+      "string_va": "0x6818e598",
+      "text": "Graphic"
+    },
+    {
+      "index": 61,
+      "pointer_slot_va": "0x681aad5c",
+      "string_va": "0x6818e5a8",
+      "text": "Object"
+    },
+    {
+      "index": 62,
+      "pointer_slot_va": "0x681aad60",
+      "string_va": "0x6818e5b8",
+      "text": "DataType"
+    },
+    {
+      "index": 63,
+      "pointer_slot_va": "0x681aad64",
+      "string_va": "0x6818e5cc",
+      "text": "Locale"
+    },
+    {
+      "index": 64,
+      "pointer_slot_va": "0x681aad68",
+      "string_va": "0x6818e5dc",
+      "text": "Calendar"
+    },
+    {
+      "index": 65,
+      "pointer_slot_va": "0x681aad6c",
+      "string_va": "0x6818e5f0",
+      "text": "Encryption"
+    },
+    {
+      "index": 66,
+      "pointer_slot_va": "0x681aad70",
+      "string_va": "0x6818e608",
+      "text": "MaxNoOfChars"
+    },
+    {
+      "index": 67,
+      "pointer_slot_va": "0x681aad74",
+      "string_va": "0x681890b0",
+      "text": "Default"
+    },
+    {
+      "index": 68,
+      "pointer_slot_va": "0x681aad78",
+      "string_va": "0x6818e624",
+      "text": "FixedLen"
+    },
+    {
+      "index": 69,
+      "pointer_slot_va": "0x681aad7c",
+      "string_va": "0x6818e638",
+      "text": "SrcField"
+    },
+    {
+      "index": 70,
+      "pointer_slot_va": "0x681aad80",
+      "string_va": "0x6818e64c",
+      "text": "SrcData"
+    },
+    {
+      "index": 71,
+      "pointer_slot_va": "0x681aad84",
+      "string_va": "0x6818e65c",
+      "text": "VarText"
+    },
+    {
+      "index": 72,
+      "pointer_slot_va": "0x681aad88",
+      "string_va": "0x6818e66c",
+      "text": "OffsetDate"
+    },
+    {
+      "index": 73,
+      "pointer_slot_va": "0x681aad8c",
+      "string_va": "0x6818e684",
+      "text": "CounterText"
+    },
+    {
+      "index": 74,
+      "pointer_slot_va": "0x681aad90",
+      "string_va": "0x6818e69c",
+      "text": "PadChar"
+    },
+    {
+      "index": 75,
+      "pointer_slot_va": "0x681aad94",
+      "string_va": "0x6818e6ac",
+      "text": "PadMode"
+    },
+    {
+      "index": 76,
+      "pointer_slot_va": "0x681aad98",
+      "string_va": "0x6818e6bc",
+      "text": "StartChar"
+    },
+    {
+      "index": 77,
+      "pointer_slot_va": "0x681aad9c",
+      "string_va": "0x6818e6d0",
+      "text": "NoOfChars"
+    },
+    {
+      "index": 78,
+      "pointer_slot_va": "0x681aada0",
+      "string_va": "0x6818e6e4",
+      "text": "SrcSQL"
+    },
+    {
+      "index": 79,
+      "pointer_slot_va": "0x681aada4",
+      "string_va": "0x6818e6f4",
+      "text": "Mask"
+    },
+    {
+      "index": 80,
+      "pointer_slot_va": "0x681aada8",
+      "string_va": "0x6818e700",
+      "text": "UserEnterData"
+    },
+    {
+      "index": 81,
+      "pointer_slot_va": "0x681aadac",
+      "string_va": "0x6818e71c",
+      "text": "PromptAtCoder"
+    },
+    {
+      "index": 82,
+      "pointer_slot_va": "0x681aadb0",
+      "string_va": "0x6818e738",
+      "text": "ListData"
+    },
+    {
+      "index": 83,
+      "pointer_slot_va": "0x681aadb4",
+      "string_va": "0x6818e74c",
+      "text": "Item"
+    },
+    {
+      "index": 84,
+      "pointer_slot_va": "0x681aadb8",
+      "string_va": "0x6818e758",
+      "text": "Rollover"
+    },
+    {
+      "index": 85,
+      "pointer_slot_va": "0x681aadbc",
+      "string_va": "0x6818e76c",
+      "text": "PrnPerCnt"
+    },
+    {
+      "index": 86,
+      "pointer_slot_va": "0x681aadc0",
+      "string_va": "0x6818e780",
+      "text": "ParentCounter"
+    },
+    {
+      "index": 87,
+      "pointer_slot_va": "0x681aadc4",
+      "string_va": "0x6818e79c",
+      "text": "SubCnt"
+    },
+    {
+      "index": 88,
+      "pointer_slot_va": "0x681aadc8",
+      "string_va": "0x6818e7ac",
+      "text": "LeadingChars"
+    },
+    {
+      "index": 89,
+      "pointer_slot_va": "0x681aadcc",
+      "string_va": "0x6818e7c8",
+      "text": "StartVal"
+    },
+    {
+      "index": 90,
+      "pointer_slot_va": "0x681aadd0",
+      "string_va": "0x6818e7dc",
+      "text": "EndVal"
+    },
+    {
+      "index": 91,
+      "pointer_slot_va": "0x681aadd4",
+      "string_va": "0x6818e7ec",
+      "text": "StepSize"
+    },
+    {
+      "index": 92,
+      "pointer_slot_va": "0x681aadd8",
+      "string_va": "0x6818e800",
+      "text": "CurrVal"
+    },
+    {
+      "index": 93,
+      "pointer_slot_va": "0x681aaddc",
+      "string_va": "0x6818e810",
+      "text": "IncableChars"
+    },
+    {
+      "index": 94,
+      "pointer_slot_va": "0x681aade0",
+      "string_va": "0x6818e82c",
+      "text": "ClrStCntType"
+    },
+    {
+      "index": 95,
+      "pointer_slot_va": "0x681aade4",
+      "string_va": "0x6818e848",
+      "text": "Clip"
+    },
+    {
+      "index": 96,
+      "pointer_slot_va": "0x681aade8",
+      "string_va": "0x6818e854",
+      "text": "Rect"
+    },
+    {
+      "index": 97,
+      "pointer_slot_va": "0x681aadec",
+      "string_va": "0x6818e860",
+      "text": "Font"
+    },
+    {
+      "index": 98,
+      "pointer_slot_va": "0x681aadf0",
+      "string_va": "0x6818e86c",
+      "text": "Bold"
+    },
+    {
+      "index": 99,
+      "pointer_slot_va": "0x681aadf4",
+      "string_va": "0x6818e878",
+      "text": "Italic"
+    },
+    {
+      "index": 100,
+      "pointer_slot_va": "0x681aadf8",
+      "string_va": "0x6818e888",
+      "text": "DblSpace"
+    },
+    {
+      "index": 101,
+      "pointer_slot_va": "0x681aadfc",
+      "string_va": "0x6818e89c",
+      "text": "Block"
+    },
+    {
+      "index": 102,
+      "pointer_slot_va": "0x681aae00",
+      "string_va": "0x6818e8a8",
+      "text": "Face"
+    },
+    {
+      "index": 103,
+      "pointer_slot_va": "0x681aae04",
+      "string_va": "0x6818e8b4",
+      "text": "Family"
+    },
+    {
+      "index": 104,
+      "pointer_slot_va": "0x681aae08",
+      "string_va": "0x6818e8c4",
+      "text": "Pitch"
+    },
+    {
+      "index": 105,
+      "pointer_slot_va": "0x681aae0c",
+      "string_va": "0x6818e8d0",
+      "text": "XMag"
+    },
+    {
+      "index": 106,
+      "pointer_slot_va": "0x681aae10",
+      "string_va": "0x6818e8dc",
+      "text": "YMag"
+    },
+    {
+      "index": 107,
+      "pointer_slot_va": "0x681aae14",
+      "string_va": "0x6818e8e8",
+      "text": "TTSize"
+    },
+    {
+      "index": 108,
+      "pointer_slot_va": "0x681aae18",
+      "string_va": "0x6818e8f8",
+      "text": "BlkW"
+    },
+    {
+      "index": 109,
+      "pointer_slot_va": "0x681aae1c",
+      "string_va": "0x6818e904",
+      "text": "BlkH"
+    },
+    {
+      "index": 110,
+      "pointer_slot_va": "0x681aae20",
+      "string_va": "0x6818e910",
+      "text": "MinFontSize"
+    },
+    {
+      "index": 111,
+      "pointer_slot_va": "0x681aae24",
+      "string_va": "0x6818e928",
+      "text": "BlkJustify"
+    },
+    {
+      "index": 112,
+      "pointer_slot_va": "0x681aae28",
+      "string_va": "0x6818e940",
+      "text": "Hyphenation"
+    },
+    {
+      "index": 113,
+      "pointer_slot_va": "0x681aae2c",
+      "string_va": "0x6818e958",
+      "text": "Mag"
+    },
+    {
+      "index": 114,
+      "pointer_slot_va": "0x681aae30",
+      "string_va": "0x6818e960",
+      "text": "BcH"
+    },
+    {
+      "index": 115,
+      "pointer_slot_va": "0x681aae34",
+      "string_va": "0x6818e968",
+      "text": "HR"
+    },
+    {
+      "index": 116,
+      "pointer_slot_va": "0x681aae38",
+      "string_va": "0x6818e970",
+      "text": "CheckDigit"
+    },
+    {
+      "index": 117,
+      "pointer_slot_va": "0x681aae3c",
+      "string_va": "0x6818e988",
+      "text": "QuietMargin"
+    },
+    {
+      "index": 118,
+      "pointer_slot_va": "0x681aae40",
+      "string_va": "0x6818e9a0",
+      "text": "XOffSet"
+    },
+    {
+      "index": 119,
+      "pointer_slot_va": "0x681aae44",
+      "string_va": "0x6818e9b0",
+      "text": "EAN8"
+    },
+    {
+      "index": 120,
+      "pointer_slot_va": "0x681aae48",
+      "string_va": "0x6818e9bc",
+      "text": "EAN13"
+    },
+    {
+      "index": 121,
+      "pointer_slot_va": "0x681aae4c",
+      "string_va": "0x6818e9c8",
+      "text": "UPCE"
+    },
+    {
+      "index": 122,
+      "pointer_slot_va": "0x681aae50",
+      "string_va": "0x6818e9d4",
+      "text": "UPCA"
+    },
+    {
+      "index": 123,
+      "pointer_slot_va": "0x681aae54",
+      "string_va": "0x6818e9e0",
+      "text": "Code39"
+    },
+    {
+      "index": 124,
+      "pointer_slot_va": "0x681aae58",
+      "string_va": "0x6818e9f0",
+      "text": "Code128"
+    },
+    {
+      "index": 125,
+      "pointer_slot_va": "0x681aae5c",
+      "string_va": "0x6818ea00",
+      "text": "ITF"
+    },
+    {
+      "index": 126,
+      "pointer_slot_va": "0x681aae60",
+      "string_va": "0x6818ea08",
+      "text": "EAN128"
+    },
+    {
+      "index": 127,
+      "pointer_slot_va": "0x681aae64",
+      "string_va": "0x6818ea18",
+      "text": "Sup2DigitCode"
+    },
+    {
+      "index": 128,
+      "pointer_slot_va": "0x681aae68",
+      "string_va": "0x6818ea34",
+      "text": "Sup5DigitCode"
+    },
+    {
+      "index": 129,
+      "pointer_slot_va": "0x681aae6c",
+      "string_va": "0x6818ea50",
+      "text": "RSS14"
+    },
+    {
+      "index": 130,
+      "pointer_slot_va": "0x681aae70",
+      "string_va": "0x6818ea5c",
+      "text": "RSS14Truncated"
+    },
+    {
+      "index": 131,
+      "pointer_slot_va": "0x681aae74",
+      "string_va": "0x6818ea7c",
+      "text": "RSS14Stacked"
+    },
+    {
+      "index": 132,
+      "pointer_slot_va": "0x681aae78",
+      "string_va": "0x6818ea98",
+      "text": "RSS14StackedOmni"
+    },
+    {
+      "index": 133,
+      "pointer_slot_va": "0x681aae7c",
+      "string_va": "0x6818eabc",
+      "text": "RSSLimited"
+    },
+    {
+      "index": 134,
+      "pointer_slot_va": "0x681aae80",
+      "string_va": "0x6818ead4",
+      "text": "HRDisplayed"
+    },
+    {
+      "index": 135,
+      "pointer_slot_va": "0x681aae84",
+      "string_va": "0x6818eaec",
+      "text": "HRPos"
+    },
+    {
+      "index": 136,
+      "pointer_slot_va": "0x681aae88",
+      "string_va": "0x6818eaf8",
+      "text": "HRFont"
+    },
+    {
+      "index": 137,
+      "pointer_slot_va": "0x681aae8c",
+      "string_va": "0x6818eb08",
+      "text": "GuardBars"
+    },
+    {
+      "index": 138,
+      "pointer_slot_va": "0x681aae90",
+      "string_va": "0x6818eb1c",
+      "text": "BearerBars"
+    },
+    {
+      "index": 139,
+      "pointer_slot_va": "0x681aae94",
+      "string_va": "0x6818eb34",
+      "text": "BearerBox"
+    },
+    {
+      "index": 140,
+      "pointer_slot_va": "0x681aae98",
+      "string_va": "0x6818eb48",
+      "text": "HGauge"
+    },
+    {
+      "index": 141,
+      "pointer_slot_va": "0x681aae9c",
+      "string_va": "0x6818eb58",
+      "text": "ThickThinRatio"
+    },
+    {
+      "index": 142,
+      "pointer_slot_va": "0x681aaea0",
+      "string_va": "0x6818eb78",
+      "text": "IntelligentEan128"
+    },
+    {
+      "index": 143,
+      "pointer_slot_va": "0x681aaea4",
+      "string_va": "0x6818eb9c",
+      "text": "GfxW"
+    },
+    {
+      "index": 144,
+      "pointer_slot_va": "0x681aaea8",
+      "string_va": "0x6818eba8",
+      "text": "GfxH"
+    },
+    {
+      "index": 145,
+      "pointer_slot_va": "0x681aaeac",
+      "string_va": "0x6818ebb4",
+      "text": "StaticGfx"
+    },
+    {
+      "index": 146,
+      "pointer_slot_va": "0x681aaeb0",
+      "string_va": "0x6818ebc8",
+      "text": "Primitive"
+    },
+    {
+      "index": 147,
+      "pointer_slot_va": "0x681aaeb4",
+      "string_va": "0x6818ebdc",
+      "text": "VariableGfx"
+    },
+    {
+      "index": 148,
+      "pointer_slot_va": "0x681aaeb8",
+      "string_va": "0x6818ebf4",
+      "text": "EmbeddedGfx"
+    },
+    {
+      "index": 149,
+      "pointer_slot_va": "0x681aaebc",
+      "string_va": "0x6818ec0c",
+      "text": "AspectRatio"
+    },
+    {
+      "index": 150,
+      "pointer_slot_va": "0x681aaec0",
+      "string_va": "0x6818ec24",
+      "text": "ResizeFrame"
+    },
+    {
+      "index": 151,
+      "pointer_slot_va": "0x681aaec4",
+      "string_va": "0x6818ec3c",
+      "text": "Shape"
+    },
+    {
+      "index": 152,
+      "pointer_slot_va": "0x681aaec8",
+      "string_va": "0x6818ec48",
+      "text": "LineW"
+    },
+    {
+      "index": 153,
+      "pointer_slot_va": "0x681aaecc",
+      "string_va": "0x6818ec54",
+      "text": "ComplexShape"
+    },
+    {
+      "index": 154,
+      "pointer_slot_va": "0x681aaed0",
+      "string_va": "0x6818ec70",
+      "text": "Point"
+    },
+    {
+      "index": 155,
+      "pointer_slot_va": "0x681aaed4",
+      "string_va": "0x6818ec7c",
+      "text": "ImageMapping"
+    },
+    {
+      "index": 156,
+      "pointer_slot_va": "0x681aaed8",
+      "string_va": "0x6818c764",
+      "text": "Map"
+    },
+    {
+      "index": 157,
+      "pointer_slot_va": "0x681aaedc",
+      "string_va": "0x6818c76c",
+      "text": "ImageQuality"
+    },
+    {
+      "index": 158,
+      "pointer_slot_va": "0x681aaee0",
+      "string_va": "0x6818c788",
+      "text": "SelectAfterDownload"
+    },
+    {
+      "index": 159,
+      "pointer_slot_va": "0x681aaee4",
+      "string_va": "0x6818c7b0",
+      "text": "Embedded"
+    },
+    {
+      "index": 160,
+      "pointer_slot_va": "0x681aaee8",
+      "string_va": "0x6818c7c4",
+      "text": "File"
+    },
+    {
+      "index": 161,
+      "pointer_slot_va": "0x681aaeec",
+      "string_va": "0x6818c7d0",
+      "text": "MaxLines"
+    },
+    {
+      "index": 162,
+      "pointer_slot_va": "0x681aaef0",
+      "string_va": "0x6818c7e4",
+      "text": "DataSource"
+    },
+    {
+      "index": 163,
+      "pointer_slot_va": "0x681aaef4",
+      "string_va": "0x6818c7fc",
+      "text": "Price"
+    },
+    {
+      "index": 164,
+      "pointer_slot_va": "0x681aaef8",
+      "string_va": "0x6818c808",
+      "text": "Current"
+    },
+    {
+      "index": 165,
+      "pointer_slot_va": "0x681aaefc",
+      "string_va": "0x6818c818",
+      "text": "Min"
+    },
+    {
+      "index": 166,
+      "pointer_slot_va": "0x681aaf00",
+      "string_va": "0x6818c820",
+      "text": "Max"
+    },
+    {
+      "index": 167,
+      "pointer_slot_va": "0x681aaf04",
+      "string_va": "0x6818c828",
+      "text": "DecimalPlaces"
+    },
+    {
+      "index": 168,
+      "pointer_slot_va": "0x681aaf08",
+      "string_va": "0x6818c844",
+      "text": "SQLUsed"
+    },
+    {
+      "index": 169,
+      "pointer_slot_va": "0x681aaf0c",
+      "string_va": "0x6818c854",
+      "text": "PriceSQL"
+    },
+    {
+      "index": 170,
+      "pointer_slot_va": "0x681aaf10",
+      "string_va": "0x6818e638",
+      "text": "SrcField"
+    },
+    {
+      "index": 171,
+      "pointer_slot_va": "0x681aaf14",
+      "string_va": "0x6818c868",
+      "text": "PriceData"
+    },
+    {
+      "index": 172,
+      "pointer_slot_va": "0x681aaf18",
+      "string_va": "0x6818c87c",
+      "text": "Checksum"
+    },
+    {
+      "index": 173,
+      "pointer_slot_va": "0x681aaf1c",
+      "string_va": "0x6818c890",
+      "text": "HigherFmt"
+    },
+    {
+      "index": 174,
+      "pointer_slot_va": "0x681aaf20",
+      "string_va": "0x6818c8a4",
+      "text": "LowerFmt"
+    },
+    {
+      "index": 175,
+      "pointer_slot_va": "0x681aaf24",
+      "string_va": "0x6818c8b8",
+      "text": "SwitchVal"
+    },
+    {
+      "index": 176,
+      "pointer_slot_va": "0x681aaf28",
+      "string_va": "0x6818c8cc",
+      "text": "Type"
+    },
+    {
+      "index": 177,
+      "pointer_slot_va": "0x681aaf2c",
+      "string_va": "0x6818c8d8",
+      "text": "Parameters"
+    },
+    {
+      "index": 178,
+      "pointer_slot_va": "0x681aaf30",
+      "string_va": "0x6818c8f0",
+      "text": "ParamSet"
+    },
+    {
+      "index": 179,
+      "pointer_slot_va": "0x681aaf34",
+      "string_va": "0x68188614",
+      "text": "Param"
+    },
+    {
+      "index": 180,
+      "pointer_slot_va": "0x681aaf38",
+      "string_va": "0x6818c904",
+      "text": "DataMatrix"
+    },
+    {
+      "index": 181,
+      "pointer_slot_va": "0x681aaf3c",
+      "string_va": "0x6818c91c",
+      "text": "ECCType"
+    },
+    {
+      "index": 182,
+      "pointer_slot_va": "0x681aaf40",
+      "string_va": "0x6818c92c",
+      "text": "ModuleSize"
+    },
+    {
+      "index": 183,
+      "pointer_slot_va": "0x681aaf44",
+      "string_va": "0x6818c944",
+      "text": "SymbolSize"
+    },
+    {
+      "index": 184,
+      "pointer_slot_va": "0x681aaf48",
+      "string_va": "0x6818c95c",
+      "text": "PDF417"
+    },
+    {
+      "index": 185,
+      "pointer_slot_va": "0x681aaf4c",
+      "string_va": "0x6818c96c",
+      "text": "MicroPDF417"
+    },
+    {
+      "index": 186,
+      "pointer_slot_va": "0x681aaf50",
+      "string_va": "0x6818c984",
+      "text": "RowHeight"
+    },
+    {
+      "index": 187,
+      "pointer_slot_va": "0x681aaf54",
+      "string_va": "0x6818c998",
+      "text": "Columns"
+    },
+    {
+      "index": 188,
+      "pointer_slot_va": "0x681aaf58",
+      "string_va": "0x6818c9a8",
+      "text": "Rows"
+    },
+    {
+      "index": 189,
+      "pointer_slot_va": "0x681aaf5c",
+      "string_va": "0x6818c9b4",
+      "text": "ErrorCorrection"
+    },
+    {
+      "index": 190,
+      "pointer_slot_va": "0x681aaf60",
+      "string_va": "0x6818c8cc",
+      "text": "Type"
+    },
+    {
+      "index": 191,
+      "pointer_slot_va": "0x681aaf64",
+      "string_va": "0x6818c9d4",
+      "text": "Encoding"
+    },
+    {
+      "index": 192,
+      "pointer_slot_va": "0x681aaf68",
+      "string_va": "0x6818c9e8",
+      "text": "RolloverError"
+    },
+    {
+      "index": 193,
+      "pointer_slot_va": "0x681aaf6c",
+      "string_va": "0x6818ca04",
+      "text": "PromptWith"
+    },
+    {
+      "index": 194,
+      "pointer_slot_va": "0x681aaf70",
+      "string_va": "0x6818ca1c",
+      "text": "HRStyle"
+    },
+    {
+      "index": 195,
+      "pointer_slot_va": "0x681aaf74",
+      "string_va": "0x6818ca2c",
+      "text": "LineID"
+    },
+    {
+      "index": 196,
+      "pointer_slot_va": "0x681aaf78",
+      "string_va": "0x6818ca3c",
+      "text": "TxtDir"
+    },
+    {
+      "index": 197,
+      "pointer_slot_va": "0x681aaf7c",
+      "string_va": "0x6818ca4c",
+      "text": "FixedWidth"
+    },
+    {
+      "index": 198,
+      "pointer_slot_va": "0x681aaf80",
+      "string_va": "0x6818ca64",
+      "text": "Width"
+    },
+    {
+      "index": 199,
+      "pointer_slot_va": "0x681aaf84",
+      "string_va": "0x6818ca70",
+      "text": "Align"
+    },
+    {
+      "index": 200,
+      "pointer_slot_va": "0x681aaf88",
+      "string_va": "0x6818ca7c",
+      "text": "CharSpace"
+    },
+    {
+      "index": 201,
+      "pointer_slot_va": "0x681aaf8c",
+      "string_va": "0x6818ca90",
+      "text": "Escapement"
+    },
+    {
+      "index": 202,
+      "pointer_slot_va": "0x681aaf90",
+      "string_va": "0x6818caa8",
+      "text": "QR"
+    },
+    {
+      "index": 203,
+      "pointer_slot_va": "0x681aaf94",
+      "string_va": "0x6818cab0",
+      "text": "QRVersion"
+    },
+    {
+      "index": 204,
+      "pointer_slot_va": "0x681aaf98",
+      "string_va": "0x6818cac4",
+      "text": "QRErrorLevel"
+    },
+    {
+      "index": 205,
+      "pointer_slot_va": "0x681aaf9c",
+      "string_va": "0x6818cae0",
+      "text": "QRMirror"
+    },
+    {
+      "index": 206,
+      "pointer_slot_va": "0x681aafa0",
+      "string_va": "0x6818caf4",
+      "text": "RSSExpanded"
+    },
+    {
+      "index": 207,
+      "pointer_slot_va": "0x681aafa4",
+      "string_va": "0x6818cb0c",
+      "text": "RSSExpandedStacked"
+    },
+    {
+      "index": 208,
+      "pointer_slot_va": "0x681aafa8",
+      "string_va": "0x6818cb34",
+      "text": "CalendarRules"
+    },
+    {
+      "index": 209,
+      "pointer_slot_va": "0x681aafac",
+      "string_va": "0x6818cb50",
+      "text": "CalendarRule"
+    },
+    {
+      "index": 210,
+      "pointer_slot_va": "0x681aafb0",
+      "string_va": "0x6818cb6c",
+      "text": "AvoidanceDates"
+    },
+    {
+      "index": 211,
+      "pointer_slot_va": "0x681aafb4",
+      "string_va": "0x6818cb8c",
+      "text": "AvoidanceDate"
+    },
+    {
+      "index": 212,
+      "pointer_slot_va": "0x681aafb8",
+      "string_va": "0x6818cba8",
+      "text": "BearerSize"
+    },
+    {
+      "index": 213,
+      "pointer_slot_va": "0x681aafbc",
+      "string_va": "0x6818cbc0",
+      "text": "QMSize"
+    },
+    {
+      "index": 214,
+      "pointer_slot_va": "0x681aafc0",
+      "string_va": "0x6818cbd0",
+      "text": "MultiStroke"
+    },
+    {
+      "index": 215,
+      "pointer_slot_va": "0x681aafc4",
+      "string_va": "0x6818cbe8",
+      "text": "AutoSize"
+    },
+    {
+      "index": 216,
+      "pointer_slot_va": "0x681aafc8",
+      "string_va": "0x6818cbfc",
+      "text": "ImageMirror"
+    },
+    {
+      "index": 217,
+      "pointer_slot_va": "0x681aafcc",
+      "string_va": "0x6818cc14",
+      "text": "ImageInverse"
+    },
+    {
+      "index": 218,
+      "pointer_slot_va": "0x681aafd0",
+      "string_va": "0x6818cc30",
+      "text": "PitchResolution"
+    },
+    {
+      "index": 219,
+      "pointer_slot_va": "0x681aafd4",
+      "string_va": "0x6818cc50",
+      "text": "IncDecSource"
+    },
+    {
+      "index": 220,
+      "pointer_slot_va": "0x681aafd8",
+      "string_va": "0x6818cc6c",
+      "text": "ResetSource"
+    },
+    {
+      "index": 221,
+      "pointer_slot_va": "0x681aafdc",
+      "string_va": "0x6818cc84",
+      "text": "LegacyC128Enc"
+    },
+    {
+      "index": 222,
+      "pointer_slot_va": "0x681aafe0",
+      "string_va": "0x6818cca0",
+      "text": "MagRnd"
+    },
+    {
+      "index": 223,
+      "pointer_slot_va": "0x681aafe4",
+      "string_va": "0x6818ccb0",
+      "text": "MaxiCode"
+    },
+    {
+      "index": 224,
+      "pointer_slot_va": "0x681aafe8",
+      "string_va": "0x6818ccc4",
+      "text": "Mode"
+    },
+    {
+      "index": 225,
+      "pointer_slot_va": "0x681aafec",
+      "string_va": "0x6818ccd0",
+      "text": "Symbol"
+    },
+    {
+      "index": 226,
+      "pointer_slot_va": "0x681aaff0",
+      "string_va": "0x6818cce0",
+      "text": "SymbolCount"
+    },
+    {
+      "index": 227,
+      "pointer_slot_va": "0x681aaff4",
+      "string_va": "0x6818ccf8",
+      "text": "Planet"
+    },
+    {
+      "index": 228,
+      "pointer_slot_va": "0x681aaff8",
+      "string_va": "0x6818cd08",
+      "text": "Postnet"
+    },
+    {
+      "index": 229,
+      "pointer_slot_va": "0x681aaffc",
+      "string_va": "0x6818cd18",
+      "text": "Plant"
+    },
+    {
+      "index": 230,
+      "pointer_slot_va": "0x681ab000",
+      "string_va": "0x6818cd24",
+      "text": "UspsImb"
+    },
+    {
+      "index": 231,
+      "pointer_slot_va": "0x681ab004",
+      "string_va": "0x6818cd34",
+      "text": "MarkSet"
+    },
+    {
+      "index": 232,
+      "pointer_slot_va": "0x681ab008",
+      "string_va": "0x6818cd44",
+      "text": "BarcodePrinting"
+    },
+    {
+      "index": 233,
+      "pointer_slot_va": "0x681ab00c",
+      "string_va": "0x6818cd64",
+      "text": "HRPrintCheckDigit"
+    },
+    {
+      "index": 234,
+      "pointer_slot_va": "0x681ab010",
+      "string_va": "0x6818cd88",
+      "text": "ManualCode128Encoding"
+    },
+    {
+      "index": 235,
+      "pointer_slot_va": "0x681ab014",
+      "string_va": "0x6818cdb4",
+      "text": "CorrectCheckDigit"
+    },
+    {
+      "index": 236,
+      "pointer_slot_va": "0x681ab018",
+      "string_va": "0x6818cdd8",
+      "text": "CurrentOrientation"
+    },
+    {
+      "index": 237,
+      "pointer_slot_va": "0x681ab01c",
+      "string_va": "0x6818ce00",
+      "text": "BarcodeDataFormat"
+    },
+    {
+      "index": 238,
+      "pointer_slot_va": "0x681ab020",
+      "string_va": "0x6818ce24",
+      "text": "Code93"
+    },
+    {
+      "index": 239,
+      "pointer_slot_va": "0x681ab024",
+      "string_va": "0x6818ce34",
+      "text": "SelectMode"
+    },
+    {
+      "index": 240,
+      "pointer_slot_va": "0x681ab028",
+      "string_va": "0x6818ce4c",
+      "text": "LogoReferencePrinter"
+    },
+    {
+      "index": 241,
+      "pointer_slot_va": "0x681ab02c",
+      "string_va": "0x6818e380",
+      "text": "ConnStr"
+    },
+    {
+      "index": 242,
+      "pointer_slot_va": "0x681ab030",
+      "string_va": "0x6818ce78",
+      "text": "SourceSQL"
+    },
+    {
+      "index": 243,
+      "pointer_slot_va": "0x681ab034",
+      "string_va": "0x6818ce8c",
+      "text": "CLARICOMSSCC"
+    },
+    {
+      "index": 244,
+      "pointer_slot_va": "0x681ab038",
+      "string_va": "0x6818cea8",
+      "text": "Packaging"
+    },
+    {
+      "index": 245,
+      "pointer_slot_va": "0x681ab03c",
+      "string_va": "0x6818e4b0",
+      "text": "X"
+    },
+    {
+      "index": 246,
+      "pointer_slot_va": "0x681ab040",
+      "string_va": "0x6818e4b4",
+      "text": "Y"
+    },
+    {
+      "index": 247,
+      "pointer_slot_va": "0x681ab044",
+      "string_va": "0x6818e4b8",
+      "text": "W"
+    },
+    {
+      "index": 248,
+      "pointer_slot_va": "0x681ab048",
+      "string_va": "0x6818e4bc",
+      "text": "H"
+    },
+    {
+      "index": 249,
+      "pointer_slot_va": "0x681ab04c",
+      "string_va": "0x6818e4c8",
+      "text": "Orientation"
+    },
+    {
+      "index": 250,
+      "pointer_slot_va": "0x681ab050",
+      "string_va": "0x6818cebc",
+      "text": "RegMark"
+    },
+    {
+      "index": 251,
+      "pointer_slot_va": "0x681ab054",
+      "string_va": "0x6818e4b0",
+      "text": "X"
+    },
+    {
+      "index": 252,
+      "pointer_slot_va": "0x681ab058",
+      "string_va": "0x6818e4b4",
+      "text": "Y"
+    },
+    {
+      "index": 253,
+      "pointer_slot_va": "0x681ab05c",
+      "string_va": "0x6818e4b8",
+      "text": "W"
+    },
+    {
+      "index": 254,
+      "pointer_slot_va": "0x681ab060",
+      "string_va": "0x6818e4bc",
+      "text": "H"
+    },
+    {
+      "index": 255,
+      "pointer_slot_va": "0x681ab064",
+      "string_va": "0x6818cecc",
+      "text": "LineSetup"
+    },
+    {
+      "index": 256,
+      "pointer_slot_va": "0x681ab068",
+      "string_va": "0x6818cee0",
+      "text": "IsCTC"
+    },
+    {
+      "index": 257,
+      "pointer_slot_va": "0x681ab06c",
+      "string_va": "0x6818ceec",
+      "text": "DotCode"
+    },
+    {
+      "index": 258,
+      "pointer_slot_va": "0x681ab070",
+      "string_va": "0x6818cefc",
+      "text": "QuietMarginSize"
+    }
+  ],
+  "attributes_and_values": [
+    {
+      "index": 0,
+      "pointer_slot_va": "0x681ab090",
+      "string_va": "0x6818cf1c",
+      "text": "InternalName"
+    },
+    {
+      "index": 1,
+      "pointer_slot_va": "0x681ab094",
+      "string_va": "0x6818cf38",
+      "text": "DesignedFor"
+    },
+    {
+      "index": 2,
+      "pointer_slot_va": "0x681ab098",
+      "string_va": "0x6818cf50",
+      "text": "DesignedWith"
+    },
+    {
+      "index": 3,
+      "pointer_slot_va": "0x681ab09c",
+      "string_va": "0x6818cf6c",
+      "text": "OverrideAll"
+    },
+    {
+      "index": 4,
+      "pointer_slot_va": "0x681ab0a0",
+      "string_va": "0x6818cf84",
+      "text": "Name"
+    },
+    {
+      "index": 5,
+      "pointer_slot_va": "0x681ab0a4",
+      "string_va": "0x6818cf90",
+      "text": "StaticDate"
+    },
+    {
+      "index": 6,
+      "pointer_slot_va": "0x681ab0a8",
+      "string_va": "0x6818cfa8",
+      "text": "AutoUpdate"
+    },
+    {
+      "index": 7,
+      "pointer_slot_va": "0x681ab0ac",
+      "string_va": "0x6818c8cc",
+      "text": "Type"
+    },
+    {
+      "index": 8,
+      "pointer_slot_va": "0x681ab0b0",
+      "string_va": "0x6818cfc0",
+      "text": "Used"
+    },
+    {
+      "index": 9,
+      "pointer_slot_va": "0x681ab0b4",
+      "string_va": "0x6818cfcc",
+      "text": "ImageReference"
+    },
+    {
+      "index": 10,
+      "pointer_slot_va": "0x681ab0b8",
+      "string_va": "0x6818cfec",
+      "text": "FormatName"
+    },
+    {
+      "index": 11,
+      "pointer_slot_va": "0x681ab0bc",
+      "string_va": "0x6818d004",
+      "text": "PrinterType"
+    },
+    {
+      "index": 12,
+      "pointer_slot_va": "0x681ab0c0",
+      "string_va": "0x6818d01c",
+      "text": "Index"
+    },
+    {
+      "index": 13,
+      "pointer_slot_va": "0x681ab0c4",
+      "string_va": "0x6818d028",
+      "text": "Static"
+    },
+    {
+      "index": 14,
+      "pointer_slot_va": "0x681ab0c8",
+      "string_va": "0x6818d038",
+      "text": "Parse"
+    },
+    {
+      "index": 15,
+      "pointer_slot_va": "0x681ab0cc",
+      "string_va": "0x6818d044",
+      "text": "SrcFieldName"
+    },
+    {
+      "index": 16,
+      "pointer_slot_va": "0x681ab0d0",
+      "string_va": "0x6818d060",
+      "text": "SrcOffset"
+    },
+    {
+      "index": 17,
+      "pointer_slot_va": "0x681ab0d4",
+      "string_va": "0x6818d074",
+      "text": "Significance"
+    },
+    {
+      "index": 18,
+      "pointer_slot_va": "0x681ab0d8",
+      "string_va": "0x6818d090",
+      "text": "AlphaNum"
+    },
+    {
+      "index": 19,
+      "pointer_slot_va": "0x681ab0dc",
+      "string_va": "0x6818d0a4",
+      "text": "LeadChar"
+    },
+    {
+      "index": 20,
+      "pointer_slot_va": "0x681ab0e0",
+      "string_va": "0x6818d0b8",
+      "text": "Left"
+    },
+    {
+      "index": 21,
+      "pointer_slot_va": "0x681ab0e4",
+      "string_va": "0x6818d0c4",
+      "text": "Top"
+    },
+    {
+      "index": 22,
+      "pointer_slot_va": "0x681ab0e8",
+      "string_va": "0x6818d0cc",
+      "text": "Right"
+    },
+    {
+      "index": 23,
+      "pointer_slot_va": "0x681ab0ec",
+      "string_va": "0x6818d0d8",
+      "text": "Bottom"
+    },
+    {
+      "index": 24,
+      "pointer_slot_va": "0x681ab0f0",
+      "string_va": "0x6818d0e8",
+      "text": "Weight"
+    },
+    {
+      "index": 25,
+      "pointer_slot_va": "0x681ab0f4",
+      "string_va": "0x6818d0f8",
+      "text": "Compatibility"
+    },
+    {
+      "index": 26,
+      "pointer_slot_va": "0x681ab0f8",
+      "string_va": "0x6818d114",
+      "text": "ParentField"
+    },
+    {
+      "index": 27,
+      "pointer_slot_va": "0x681ab0fc",
+      "string_va": "0x6818d12c",
+      "text": "ID"
+    },
+    {
+      "index": 28,
+      "pointer_slot_va": "0x681ab100",
+      "string_va": "0x6818e4b0",
+      "text": "X"
+    },
+    {
+      "index": 29,
+      "pointer_slot_va": "0x681ab104",
+      "string_va": "0x6818e4b4",
+      "text": "Y"
+    },
+    {
+      "index": 30,
+      "pointer_slot_va": "0x681ab108",
+      "string_va": "0x6818d134",
+      "text": "PrintHeadDigits"
+    },
+    {
+      "index": 31,
+      "pointer_slot_va": "0x681ab10c",
+      "string_va": "0x6818d154",
+      "text": "SubIMageRef"
+    },
+    {
+      "index": 32,
+      "pointer_slot_va": "0x681ab110",
+      "string_va": "0x6818d16c",
+      "text": "xml:space"
+    },
+    {
+      "index": 33,
+      "pointer_slot_va": "0x681ab114",
+      "string_va": "0x6818d180",
+      "text": "EqRef"
+    },
+    {
+      "index": 34,
+      "pointer_slot_va": "0x681ab118",
+      "string_va": "0x6818d18c",
+      "text": "Temporary"
+    },
+    {
+      "index": 35,
+      "pointer_slot_va": "0x681ab11c",
+      "string_va": "0x6818cf84",
+      "text": "Name"
+    },
+    {
+      "index": 36,
+      "pointer_slot_va": "0x681ab120",
+      "string_va": "0x6818d1a0",
+      "text": "Size"
+    },
+    {
+      "index": 37,
+      "pointer_slot_va": "0x681ab124",
+      "string_va": "0x6818c8cc",
+      "text": "Type"
+    },
+    {
+      "index": 38,
+      "pointer_slot_va": "0x681ab128",
+      "string_va": "0x6818d1ac",
+      "text": "CompType"
+    },
+    {
+      "index": 39,
+      "pointer_slot_va": "0x681ab12c",
+      "string_va": "0x6818d1c0",
+      "text": "DataSourceName"
+    },
+    {
+      "index": 40,
+      "pointer_slot_va": "0x681ab130",
+      "string_va": "0x6818d1e0",
+      "text": "DataSourceTable"
+    },
+    {
+      "index": 41,
+      "pointer_slot_va": "0x681ab134",
+      "string_va": "0x6818d200",
+      "text": "DataSourceIndex"
+    },
+    {
+      "index": 42,
+      "pointer_slot_va": "0x681ab138",
+      "string_va": "0x6818d220",
+      "text": "SrcPrice"
+    },
+    {
+      "index": 43,
+      "pointer_slot_va": "0x681ab13c",
+      "string_va": "0x6818d234",
+      "text": "Pos"
+    },
+    {
+      "index": 44,
+      "pointer_slot_va": "0x681ab140",
+      "string_va": "0x6818d23c",
+      "text": "TXField"
+    },
+    {
+      "index": 45,
+      "pointer_slot_va": "0x681ab144",
+      "string_va": "0x6818d24c",
+      "text": "Global"
+    },
+    {
+      "index": 46,
+      "pointer_slot_va": "0x681ab148",
+      "string_va": "0x6818e360",
+      "text": "Day"
+    },
+    {
+      "index": 47,
+      "pointer_slot_va": "0x681ab14c",
+      "string_va": "0x6818e368",
+      "text": "Month"
+    },
+    {
+      "index": 48,
+      "pointer_slot_va": "0x681ab150",
+      "string_va": "0x6818d25c",
+      "text": "Offset"
+    },
+    {
+      "index": 49,
+      "pointer_slot_va": "0x681ab154",
+      "string_va": "0x6818d26c",
+      "text": "Enabled"
+    },
+    {
+      "index": 50,
+      "pointer_slot_va": "0x681ab158",
+      "string_va": "0x6818d27c",
+      "text": "PrinterFormatName"
+    },
+    {
+      "index": 51,
+      "pointer_slot_va": "0x681ab15c",
+      "string_va": "0x68188614",
+      "text": "Param"
+    },
+    {
+      "index": 52,
+      "pointer_slot_va": "0x681ab160",
+      "string_va": "0x6818d2a0",
+      "text": "Pad"
+    },
+    {
+      "index": 53,
+      "pointer_slot_va": "0x681ab164",
+      "string_va": "0x6818d2a8",
+      "text": "Version"
+    },
+    {
+      "index": 54,
+      "pointer_slot_va": "0x681ab168",
+      "string_va": "0x6818d2b8",
+      "text": "Database"
+    },
+    {
+      "index": 55,
+      "pointer_slot_va": "0x681ab16c",
+      "string_va": "0x6818c7e4",
+      "text": "DataSource"
+    },
+    {
+      "index": 56,
+      "pointer_slot_va": "0x681ab170",
+      "string_va": "0x6818d12c",
+      "text": "ID"
+    },
+    {
+      "index": 57,
+      "pointer_slot_va": "0x681ab174",
+      "string_va": "0x6818e6f4",
+      "text": "Mask"
+    },
+    {
+      "index": 58,
+      "pointer_slot_va": "0x681ab178",
+      "string_va": "0x6818d2cc",
+      "text": "Reference"
+    },
+    {
+      "index": 59,
+      "pointer_slot_va": "0x681ab17c",
+      "string_va": "0x6818d2e0",
+      "text": "RichText"
+    },
+    {
+      "index": 60,
+      "pointer_slot_va": "0x681ab180",
+      "string_va": "0x6818d2f4",
+      "text": "PriPack"
+    },
+    {
+      "index": 61,
+      "pointer_slot_va": "0x681ab184",
+      "string_va": "0x6818d304",
+      "text": "SecPack"
+    }
+  ],
+  "source": "Data/CiffMgr.dll",
+  "evidence": "Static pointer tables; this vocabulary does not by itself prove XML parent-child hierarchy."
+}

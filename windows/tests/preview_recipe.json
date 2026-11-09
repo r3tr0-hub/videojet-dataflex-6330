@@ -1,0 +1,9 @@
+{
+  "source": "CLARiTYConfig.exe 0x42be94..0x42bf70, firmware bitmap dispatch bit0 at0x446c007c",
+  "hex": "325038000000030022000000430075007200720065006e00740049006d006100670065002e0062006d00700000000f000000010000000000",
+  "file_name": "CurrentImage.bmp",
+  "flags": 15,
+  "head": 1,
+  "width": 0,
+  "height": 0
+}

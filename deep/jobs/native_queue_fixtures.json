@@ -1,0 +1,69 @@
+{
+  "source_sha256": "df4136842b7da9b20f6fc37c851d74016116609694c2eb7f3477e13ba8568fb1",
+  "fixtures": [
+    {
+      "kind": "EQI",
+      "hex": "3750080000000000",
+      "actual_length": 8,
+      "declared_length": 8,
+      "fragment_payload_size": 8
+    },
+    {
+      "kind": "EQI",
+      "hex": "37501000000002006300000078563412",
+      "actual_length": 16,
+      "declared_length": 16,
+      "fragment_payload_size": 16
+    },
+    {
+      "kind": "EQR",
+      "hex": "3850080000000000",
+      "actual_length": 8,
+      "declared_length": 8,
+      "fragment_payload_size": 8
+    },
+    {
+      "kind": "EQR",
+      "hex": "38500c000000010063000000",
+      "actual_length": 12,
+      "declared_length": 12,
+      "fragment_payload_size": 12
+    },
+    {
+      "kind": "MJU",
+      "hex": "3d500a0000000000",
+      "actual_length": 8,
+      "declared_length": 10,
+      "fragment_payload_size": 8,
+      "native_parse": {
+        "count": 0,
+        "records": []
+      }
+    },
+    {
+      "kind": "MJU",
+      "hex": "3d501800000001006000000007000000040011223344",
+      "actual_length": 22,
+      "declared_length": 24,
+      "fragment_payload_size": 22,
+      "native_parse": {
+        "count": 1,
+        "records": [
+          {
+            "flags": 96,
+            "allocation": 7,
+            "size": 4,
+            "data_hex": "11223344"
+          }
+        ]
+      }
+    },
+    {
+      "kind": "BMX",
+      "hex": "105012000000020000008967452301000000",
+      "actual_length": 18,
+      "declared_length": 18,
+      "fragment_payload_size": 18
+    }
+  ]
+}

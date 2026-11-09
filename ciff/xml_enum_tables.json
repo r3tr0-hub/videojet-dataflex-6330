@@ -1,0 +1,1443 @@
+[
+  {
+    "table_va": "0x681ab524",
+    "name": "EBarcodeDataFormat",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "Hexadecimal",
+        "literal_va": "0x6818e138"
+      }
+    ],
+    "reader_reference": "68138d12: push dword ptr [esi*4 + 0x681ab524]"
+  },
+  {
+    "table_va": "0x681ab514",
+    "name": "EBarcodePrinting",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "HighQuality",
+        "literal_va": "0x6818e0e4"
+      },
+      {
+        "index": 1,
+        "xml_text": "HighSpeed",
+        "literal_va": "0x6818e0fc"
+      }
+    ],
+    "reader_reference": "68138d6a: push dword ptr [esi*4 + 0x681ab514]"
+  },
+  {
+    "table_va": "0x681ab2c8",
+    "name": "EBlockJustify",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Left",
+        "literal_va": "0x6818d0b8"
+      },
+      {
+        "index": 1,
+        "xml_text": "Centre",
+        "literal_va": "0x6818dbd8"
+      },
+      {
+        "index": 2,
+        "xml_text": "Right",
+        "literal_va": "0x6818d0cc"
+      },
+      {
+        "index": 3,
+        "xml_text": "Full",
+        "literal_va": "0x6818dbe8"
+      }
+    ],
+    "reader_reference": "68138dd1: push dword ptr [esi*4 + 0x681ab2c8]"
+  },
+  {
+    "table_va": "0x681ab188",
+    "name": "BooleanText",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "0",
+        "literal_va": "0x6818876c"
+      },
+      {
+        "index": 1,
+        "xml_text": "1",
+        "literal_va": "0x6818c62c"
+      }
+    ],
+    "reader_reference": "68138e32: push dword ptr [esi*4 + 0x681ab188]"
+  },
+  {
+    "table_va": "0x681ab350",
+    "name": "EChecksumPosition",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Before",
+        "literal_va": "0x6818dd60"
+      },
+      {
+        "index": 1,
+        "xml_text": "After",
+        "literal_va": "0x6818dd70"
+      }
+    ],
+    "reader_reference": "68138f04: push dword ptr [esi*4 + 0x681ab350]"
+  },
+  {
+    "table_va": "0x681ab52c",
+    "name": "ECounterIncDecSource",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Print",
+        "literal_va": "0x6818df88"
+      },
+      {
+        "index": 1,
+        "xml_text": "External",
+        "literal_va": "0x6818df74"
+      }
+    ],
+    "reader_reference": "68138f5c: push dword ptr [esi*4 + 0x681ab52c]"
+  },
+  {
+    "table_va": "0x681ab3d8",
+    "name": "ECounterPromptWith",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "BlankValue",
+        "literal_va": "0x6818df28"
+      },
+      {
+        "index": 1,
+        "xml_text": "CurrentValue",
+        "literal_va": "0x6818df40"
+      },
+      {
+        "index": 2,
+        "xml_text": "StartValue",
+        "literal_va": "0x6818df5c"
+      }
+    ],
+    "reader_reference": "68138fc9: push dword ptr [esi*4 + 0x681ab3d8]"
+  },
+  {
+    "table_va": "0x681ab51c",
+    "name": "ECounterResetSource",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "None",
+        "literal_va": "0x6818dd08"
+      },
+      {
+        "index": 1,
+        "xml_text": "External",
+        "literal_va": "0x6818df74"
+      }
+    ],
+    "reader_reference": "6813902a: push dword ptr [esi*4 + 0x681ab51c]"
+  },
+  {
+    "table_va": "0x681ab44c",
+    "name": "ECiffCurrentOrientation",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Unknown",
+        "literal_va": "0x6818e110"
+      },
+      {
+        "index": 1,
+        "xml_text": "0",
+        "literal_va": "0x6818876c"
+      },
+      {
+        "index": 2,
+        "xml_text": "90",
+        "literal_va": "0x6818e120"
+      },
+      {
+        "index": 3,
+        "xml_text": "180",
+        "literal_va": "0x6818e128"
+      },
+      {
+        "index": 4,
+        "xml_text": "270",
+        "literal_va": "0x6818e130"
+      }
+    ],
+    "reader_reference": "68139098: push dword ptr [esi*4 + 0x681ab44c]"
+  },
+  {
+    "table_va": "0x681ab330",
+    "name": "EEmbeddedFileCompression",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "None",
+        "literal_va": "0x6818dd08"
+      },
+      {
+        "index": 1,
+        "xml_text": "RLE",
+        "literal_va": "0x6818dd14"
+      }
+    ],
+    "reader_reference": "681390f9: push dword ptr [esi*4 + 0x681ab330]"
+  },
+  {
+    "table_va": "0x681ab328",
+    "name": "EEmbeddedFileType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "BMP",
+        "literal_va": "0x6818dcf8"
+      },
+      {
+        "index": 1,
+        "xml_text": "TTF",
+        "literal_va": "0x6818dd00"
+      }
+    ],
+    "reader_reference": "68139151: push dword ptr [esi*4 + 0x681ab328]"
+  },
+  {
+    "table_va": "0x681ab30c",
+    "name": "EquipmentReferenceText",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "0",
+        "literal_va": "0x6818876c"
+      },
+      {
+        "index": 1,
+        "xml_text": "1",
+        "literal_va": "0x6818c62c"
+      },
+      {
+        "index": 2,
+        "xml_text": "2",
+        "literal_va": "0x6818dce4"
+      },
+      {
+        "index": 3,
+        "xml_text": "3",
+        "literal_va": "0x6818dce8"
+      },
+      {
+        "index": 4,
+        "xml_text": "4",
+        "literal_va": "0x6818dcec"
+      },
+      {
+        "index": 5,
+        "xml_text": "5",
+        "literal_va": "0x6818dcf0"
+      },
+      {
+        "index": 6,
+        "xml_text": "6",
+        "literal_va": "0x6818dcf4"
+      }
+    ],
+    "reader_reference": "681391cd: push dword ptr [esi*4 + 0x681ab30c]"
+  },
+  {
+    "table_va": "0x681ab398",
+    "name": "EBarcodeErrorCorrectionPDF417",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "0",
+        "literal_va": "0x6818876c"
+      },
+      {
+        "index": 1,
+        "xml_text": "1",
+        "literal_va": "0x6818c62c"
+      },
+      {
+        "index": 2,
+        "xml_text": "2",
+        "literal_va": "0x6818dce4"
+      },
+      {
+        "index": 3,
+        "xml_text": "3",
+        "literal_va": "0x6818dce8"
+      },
+      {
+        "index": 4,
+        "xml_text": "4",
+        "literal_va": "0x6818dcec"
+      },
+      {
+        "index": 5,
+        "xml_text": "5",
+        "literal_va": "0x6818dcf0"
+      },
+      {
+        "index": 6,
+        "xml_text": "6",
+        "literal_va": "0x6818dcf4"
+      },
+      {
+        "index": 7,
+        "xml_text": "7",
+        "literal_va": "0x6818dec4"
+      },
+      {
+        "index": 8,
+        "xml_text": "8",
+        "literal_va": "0x6818dec8"
+      },
+      {
+        "index": 9,
+        "xml_text": "Auto",
+        "literal_va": "0x6818decc"
+      }
+    ],
+    "reader_reference": "6813924f: push dword ptr [esi*4 + 0x681ab398]"
+  },
+  {
+    "table_va": "0x681ab2a8",
+    "name": "EPadMode",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Left",
+        "literal_va": "0x6818d0b8"
+      },
+      {
+        "index": 1,
+        "xml_text": "Right",
+        "literal_va": "0x6818d0cc"
+      }
+    ],
+    "reader_reference": "681392b0: push dword ptr [esi*4 + 0x681ab2a8]"
+  },
+  {
+    "table_va": "0x681ab3f4",
+    "name": "ETextAlignments",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Left",
+        "literal_va": "0x6818d0b8"
+      },
+      {
+        "index": 1,
+        "xml_text": "Right",
+        "literal_va": "0x6818d0cc"
+      },
+      {
+        "index": 2,
+        "xml_text": "Centre",
+        "literal_va": "0x6818dbd8"
+      }
+    ],
+    "reader_reference": "6813931d: push dword ptr [esi*4 + 0x681ab3f4]"
+  },
+  {
+    "table_va": "0x681ab400",
+    "name": "FontPitchResolution",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Line",
+        "literal_va": "0x6818dc0c"
+      },
+      {
+        "index": 1,
+        "xml_text": "0",
+        "literal_va": "0x6818876c"
+      },
+      {
+        "index": 2,
+        "xml_text": "1",
+        "literal_va": "0x6818c62c"
+      },
+      {
+        "index": 3,
+        "xml_text": "2",
+        "literal_va": "0x6818dce4"
+      },
+      {
+        "index": 4,
+        "xml_text": "3",
+        "literal_va": "0x6818dce8"
+      },
+      {
+        "index": 5,
+        "xml_text": "4",
+        "literal_va": "0x6818dcec"
+      },
+      {
+        "index": 6,
+        "xml_text": "5",
+        "literal_va": "0x6818dcf0"
+      },
+      {
+        "index": 7,
+        "xml_text": "6",
+        "literal_va": "0x6818dcf4"
+      },
+      {
+        "index": 8,
+        "xml_text": "7",
+        "literal_va": "0x6818dec4"
+      },
+      {
+        "index": 9,
+        "xml_text": "8",
+        "literal_va": "0x6818dec8"
+      },
+      {
+        "index": 10,
+        "xml_text": "9",
+        "literal_va": "0x6818dfd0"
+      },
+      {
+        "index": 11,
+        "xml_text": "10",
+        "literal_va": "0x6818dfd4"
+      },
+      {
+        "index": 12,
+        "xml_text": "11",
+        "literal_va": "0x6818dfdc"
+      },
+      {
+        "index": 13,
+        "xml_text": "12",
+        "literal_va": "0x6818dfe4"
+      },
+      {
+        "index": 14,
+        "xml_text": "13",
+        "literal_va": "0x6818dfec"
+      },
+      {
+        "index": 15,
+        "xml_text": "14",
+        "literal_va": "0x6818dff4"
+      },
+      {
+        "index": 16,
+        "xml_text": "15",
+        "literal_va": "0x6818dffc"
+      }
+    ],
+    "reader_reference": "681394c2: push dword ptr [esi*4 + 0x681ab400]"
+  },
+  {
+    "table_va": "0x681ab2d8",
+    "name": "HRPosition",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Below",
+        "literal_va": "0x6818dbf4"
+      },
+      {
+        "index": 1,
+        "xml_text": "Above",
+        "literal_va": "0x6818dc00"
+      }
+    ],
+    "reader_reference": "68139523: push dword ptr [esi*4 + 0x681ab2d8]"
+  },
+  {
+    "table_va": "0x681ab3e4",
+    "name": "EHRStyle",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "EU_ITF14",
+        "literal_va": "0x6818df94"
+      },
+      {
+        "index": 2,
+        "xml_text": "US_ITF14",
+        "literal_va": "0x6818dfa8"
+      },
+      {
+        "index": 3,
+        "xml_text": "HRS_HIBC",
+        "literal_va": "0x6818dfbc"
+      }
+    ],
+    "reader_reference": "6813958a: push dword ptr [esi*4 + 0x681ab3e4]"
+  },
+  {
+    "table_va": "0x681ab28c",
+    "name": "EOffsetResetOnSelect",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "ResetToDefaultOffset",
+        "literal_va": "0x6818d718"
+      },
+      {
+        "index": 1,
+        "xml_text": "ContinueWithCurrentOffset",
+        "literal_va": "0x6818d744"
+      },
+      {
+        "index": 2,
+        "xml_text": "PromptForOffset",
+        "literal_va": "0x6818d778"
+      }
+    ],
+    "reader_reference": "681396c3: push dword ptr [esi*4 + 0x681ab28c]"
+  },
+  {
+    "table_va": "0x681ab25c",
+    "name": "EOffsetType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "User",
+        "literal_va": "0x6818d638"
+      },
+      {
+        "index": 2,
+        "xml_text": "Hidden",
+        "literal_va": "0x6818d644"
+      },
+      {
+        "index": 3,
+        "xml_text": "Updateable",
+        "literal_va": "0x6818d654"
+      },
+      {
+        "index": 4,
+        "xml_text": "Elapsed",
+        "literal_va": "0x6818d66c"
+      }
+    ],
+    "reader_reference": "6813973a: push dword ptr [esi*4 + 0x681ab25c]"
+  },
+  {
+    "table_va": "0x681ab358",
+    "name": "EOriginType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "TopLeft",
+        "literal_va": "0x6818dd7c"
+      },
+      {
+        "index": 1,
+        "xml_text": "TopCentre",
+        "literal_va": "0x6818dd8c"
+      },
+      {
+        "index": 2,
+        "xml_text": "TopRight",
+        "literal_va": "0x6818dda0"
+      },
+      {
+        "index": 3,
+        "xml_text": "MiddleLeft",
+        "literal_va": "0x6818ddb4"
+      },
+      {
+        "index": 4,
+        "xml_text": "MiddleCentre",
+        "literal_va": "0x6818ddcc"
+      },
+      {
+        "index": 5,
+        "xml_text": "MiddleRight",
+        "literal_va": "0x6818dde8"
+      },
+      {
+        "index": 6,
+        "xml_text": "BottomLeft",
+        "literal_va": "0x6818de00"
+      },
+      {
+        "index": 7,
+        "xml_text": "BottomCentre",
+        "literal_va": "0x6818de18"
+      },
+      {
+        "index": 8,
+        "xml_text": "BottomRight",
+        "literal_va": "0x6818de34"
+      },
+      {
+        "index": 9,
+        "xml_text": "BaselineLeft",
+        "literal_va": "0x6818de4c"
+      },
+      {
+        "index": 10,
+        "xml_text": "BaselineCentre",
+        "literal_va": "0x6818de68"
+      },
+      {
+        "index": 11,
+        "xml_text": "BaselineRight",
+        "literal_va": "0x6818de88"
+      }
+    ],
+    "reader_reference": "681397c0: push dword ptr [esi*4 + 0x681ab358]"
+  },
+  {
+    "table_va": "0x681ab3c8",
+    "name": "EPDF417Encoding",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "EAN128C1",
+        "literal_va": "0x6818deec"
+      },
+      {
+        "index": 2,
+        "xml_text": "EAN128C2",
+        "literal_va": "0x6818df00"
+      },
+      {
+        "index": 3,
+        "xml_text": "EAN128C0",
+        "literal_va": "0x6818df14"
+      }
+    ],
+    "reader_reference": "68139830: push dword ptr [esi*4 + 0x681ab3c8]"
+  },
+  {
+    "table_va": "0x681ab3c0",
+    "name": "EBarcodeTypePDF417",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "Truncated",
+        "literal_va": "0x6818ded8"
+      }
+    ],
+    "reader_reference": "68139891: push dword ptr [esi*4 + 0x681ab3c0]"
+  },
+  {
+    "table_va": "0x681ab388",
+    "name": "ECiffParameterType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Sta",
+        "literal_va": "0x6818dea4"
+      },
+      {
+        "index": 1,
+        "xml_text": "Num",
+        "literal_va": "0x6818deac"
+      },
+      {
+        "index": 2,
+        "xml_text": "Str",
+        "literal_va": "0x6818deb4"
+      },
+      {
+        "index": 3,
+        "xml_text": "Dat",
+        "literal_va": "0x6818debc"
+      }
+    ],
+    "reader_reference": "681398fa: push dword ptr [esi*4 + 0x681ab388]"
+  },
+  {
+    "table_va": "0x681ab344",
+    "name": "EPriceResetOnSelect",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "UseDefault",
+        "literal_va": "0x6818dd1c"
+      },
+      {
+        "index": 1,
+        "xml_text": "UseCurrent",
+        "literal_va": "0x6818dd34"
+      },
+      {
+        "index": 2,
+        "xml_text": "UseBlank",
+        "literal_va": "0x6818dd4c"
+      }
+    ],
+    "reader_reference": "68139970: push dword ptr [esi*4 + 0x681ab344]"
+  },
+  {
+    "table_va": "0x681ab338",
+    "name": "EPriceType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Normal",
+        "literal_va": "0x6818d628"
+      },
+      {
+        "index": 1,
+        "xml_text": "User",
+        "literal_va": "0x6818d638"
+      },
+      {
+        "index": 2,
+        "xml_text": "Hidden",
+        "literal_va": "0x6818d644"
+      }
+    ],
+    "reader_reference": "681399e6: push dword ptr [esi*4 + 0x681ab338]"
+  },
+  {
+    "table_va": "0x681ab300",
+    "name": "EPrintQuality",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "High",
+        "literal_va": "0x6818dcc0"
+      },
+      {
+        "index": 1,
+        "xml_text": "Medium",
+        "literal_va": "0x6818dccc"
+      },
+      {
+        "index": 2,
+        "xml_text": "Low",
+        "literal_va": "0x6818dcdc"
+      }
+    ],
+    "reader_reference": "68139a5c: push dword ptr [esi*4 + 0x681ab300]"
+  },
+  {
+    "table_va": "0x681ab504",
+    "name": "EQRErrLevel",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "L",
+        "literal_va": "0x6818e0dc"
+      },
+      {
+        "index": 1,
+        "xml_text": "M",
+        "literal_va": "0x681893ac"
+      },
+      {
+        "index": 2,
+        "xml_text": "Q",
+        "literal_va": "0x6818e0e0"
+      },
+      {
+        "index": 3,
+        "xml_text": "H",
+        "literal_va": "0x6818e4bc"
+      }
+    ],
+    "reader_reference": "68139acc: push dword ptr [esi*4 + 0x681ab504]"
+  },
+  {
+    "table_va": "0x681ab460",
+    "name": "EQRVersion",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "AUTO",
+        "literal_va": "0x6818d5f8"
+      },
+      {
+        "index": 1,
+        "xml_text": "1",
+        "literal_va": "0x6818c62c"
+      },
+      {
+        "index": 2,
+        "xml_text": "2",
+        "literal_va": "0x6818dce4"
+      },
+      {
+        "index": 3,
+        "xml_text": "3",
+        "literal_va": "0x6818dce8"
+      },
+      {
+        "index": 4,
+        "xml_text": "4",
+        "literal_va": "0x6818dcec"
+      },
+      {
+        "index": 5,
+        "xml_text": "5",
+        "literal_va": "0x6818dcf0"
+      },
+      {
+        "index": 6,
+        "xml_text": "6",
+        "literal_va": "0x6818dcf4"
+      },
+      {
+        "index": 7,
+        "xml_text": "7",
+        "literal_va": "0x6818dec4"
+      },
+      {
+        "index": 8,
+        "xml_text": "8",
+        "literal_va": "0x6818dec8"
+      },
+      {
+        "index": 9,
+        "xml_text": "9",
+        "literal_va": "0x6818dfd0"
+      },
+      {
+        "index": 10,
+        "xml_text": "10",
+        "literal_va": "0x6818dfd4"
+      },
+      {
+        "index": 11,
+        "xml_text": "11",
+        "literal_va": "0x6818dfdc"
+      },
+      {
+        "index": 12,
+        "xml_text": "12",
+        "literal_va": "0x6818dfe4"
+      },
+      {
+        "index": 13,
+        "xml_text": "13",
+        "literal_va": "0x6818dfec"
+      },
+      {
+        "index": 14,
+        "xml_text": "14",
+        "literal_va": "0x6818dff4"
+      },
+      {
+        "index": 15,
+        "xml_text": "15",
+        "literal_va": "0x6818dffc"
+      },
+      {
+        "index": 16,
+        "xml_text": "16",
+        "literal_va": "0x6818e014"
+      },
+      {
+        "index": 17,
+        "xml_text": "17",
+        "literal_va": "0x6818e01c"
+      },
+      {
+        "index": 18,
+        "xml_text": "18",
+        "literal_va": "0x6818e024"
+      },
+      {
+        "index": 19,
+        "xml_text": "19",
+        "literal_va": "0x6818e02c"
+      },
+      {
+        "index": 20,
+        "xml_text": "20",
+        "literal_va": "0x6818e034"
+      },
+      {
+        "index": 21,
+        "xml_text": "21",
+        "literal_va": "0x6818e03c"
+      },
+      {
+        "index": 22,
+        "xml_text": "22",
+        "literal_va": "0x6818e044"
+      },
+      {
+        "index": 23,
+        "xml_text": "23",
+        "literal_va": "0x6818e04c"
+      },
+      {
+        "index": 24,
+        "xml_text": "24",
+        "literal_va": "0x6818e054"
+      },
+      {
+        "index": 25,
+        "xml_text": "25",
+        "literal_va": "0x6818e05c"
+      },
+      {
+        "index": 26,
+        "xml_text": "26",
+        "literal_va": "0x6818e064"
+      },
+      {
+        "index": 27,
+        "xml_text": "27",
+        "literal_va": "0x6818e06c"
+      },
+      {
+        "index": 28,
+        "xml_text": "28",
+        "literal_va": "0x6818e074"
+      },
+      {
+        "index": 29,
+        "xml_text": "29",
+        "literal_va": "0x6818e07c"
+      },
+      {
+        "index": 30,
+        "xml_text": "30",
+        "literal_va": "0x6818e084"
+      },
+      {
+        "index": 31,
+        "xml_text": "31",
+        "literal_va": "0x6818e08c"
+      },
+      {
+        "index": 32,
+        "xml_text": "32",
+        "literal_va": "0x6818e094"
+      },
+      {
+        "index": 33,
+        "xml_text": "33",
+        "literal_va": "0x6818e09c"
+      },
+      {
+        "index": 34,
+        "xml_text": "34",
+        "literal_va": "0x6818e0a4"
+      },
+      {
+        "index": 35,
+        "xml_text": "35",
+        "literal_va": "0x6818e0ac"
+      },
+      {
+        "index": 36,
+        "xml_text": "36",
+        "literal_va": "0x6818e0b4"
+      },
+      {
+        "index": 37,
+        "xml_text": "37",
+        "literal_va": "0x6818e0bc"
+      },
+      {
+        "index": 38,
+        "xml_text": "38",
+        "literal_va": "0x6818e0c4"
+      },
+      {
+        "index": 39,
+        "xml_text": "39",
+        "literal_va": "0x6818e0cc"
+      },
+      {
+        "index": 40,
+        "xml_text": "40",
+        "literal_va": "0x6818e0d4"
+      }
+    ],
+    "reader_reference": "68139bb4: push dword ptr [esi*4 + 0x681ab460]"
+  },
+  {
+    "table_va": "0x681ab298",
+    "name": "ERenderMode",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "OR",
+        "literal_va": "0x6818d798"
+      },
+      {
+        "index": 1,
+        "xml_text": "XOR",
+        "literal_va": "0x6818d7a0"
+      },
+      {
+        "index": 2,
+        "xml_text": "AND",
+        "literal_va": "0x6818d7a8"
+      },
+      {
+        "index": 3,
+        "xml_text": "COPY",
+        "literal_va": "0x6818d7b0"
+      }
+    ],
+    "reader_reference": "68139c27: push dword ptr [esi*4 + 0x681ab298]"
+  },
+  {
+    "table_va": "0x681ab2bc",
+    "name": "EResetMode",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "ResetToStartVal",
+        "literal_va": "0x6818d830"
+      },
+      {
+        "index": 1,
+        "xml_text": "ContinueWithCurrentVal",
+        "literal_va": "0x6818d7e0"
+      },
+      {
+        "index": 2,
+        "xml_text": "PromptForValue",
+        "literal_va": "0x6818d810"
+      }
+    ],
+    "reader_reference": "68139c9d: push dword ptr [esi*4 + 0x681ab2bc]"
+  },
+  {
+    "table_va": "0x681ab270",
+    "name": "ERoundingMode",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "NoRounding",
+        "literal_va": "0x6818d67c"
+      },
+      {
+        "index": 1,
+        "xml_text": "RoundUp",
+        "literal_va": "0x6818d694"
+      },
+      {
+        "index": 2,
+        "xml_text": "RoundDown",
+        "literal_va": "0x6818d6a4"
+      },
+      {
+        "index": 3,
+        "xml_text": "RoundNearest",
+        "literal_va": "0x6818d6b8"
+      }
+    ],
+    "reader_reference": "68139d0d: push dword ptr [esi*4 + 0x681ab270]"
+  },
+  {
+    "table_va": "0x681ab280",
+    "name": "ERoundingType",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "DayOfWeek",
+        "literal_va": "0x6818d6d4"
+      },
+      {
+        "index": 1,
+        "xml_text": "DayOfMonth",
+        "literal_va": "0x6818d6e8"
+      },
+      {
+        "index": 2,
+        "xml_text": "DayOfBiWeek",
+        "literal_va": "0x6818d700"
+      }
+    ],
+    "reader_reference": "68139d83: push dword ptr [esi*4 + 0x681ab280]"
+  },
+  {
+    "table_va": "0x681ab2e0",
+    "name": "EPrimitiveShape",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "Line",
+        "literal_va": "0x6818dc0c"
+      },
+      {
+        "index": 1,
+        "xml_text": "OutlineBox",
+        "literal_va": "0x6818dc18"
+      },
+      {
+        "index": 2,
+        "xml_text": "FilledBox",
+        "literal_va": "0x6818dc30"
+      },
+      {
+        "index": 3,
+        "xml_text": "OutlineEllipse",
+        "literal_va": "0x6818dc44"
+      },
+      {
+        "index": 4,
+        "xml_text": "FilledEllipse",
+        "literal_va": "0x6818dc64"
+      },
+      {
+        "index": 5,
+        "xml_text": "PolyLine",
+        "literal_va": "0x6818dc80"
+      },
+      {
+        "index": 6,
+        "xml_text": "Polygon",
+        "literal_va": "0x6818dc94"
+      },
+      {
+        "index": 7,
+        "xml_text": "FilledPolygon",
+        "literal_va": "0x6818dca4"
+      }
+    ],
+    "reader_reference": "68139dfe: push dword ptr [esi*4 + 0x681ab2e0]"
+  },
+  {
+    "table_va": "0x681ab190",
+    "name": "DataMatrixSymbolSize",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "10X10",
+        "literal_va": "0x6818d3b4"
+      },
+      {
+        "index": 1,
+        "xml_text": "12X12",
+        "literal_va": "0x6818d3c0"
+      },
+      {
+        "index": 2,
+        "xml_text": "14X14",
+        "literal_va": "0x6818d3cc"
+      },
+      {
+        "index": 3,
+        "xml_text": "16X16",
+        "literal_va": "0x6818d3d8"
+      },
+      {
+        "index": 4,
+        "xml_text": "18X18",
+        "literal_va": "0x6818d3e4"
+      },
+      {
+        "index": 5,
+        "xml_text": "20X20",
+        "literal_va": "0x6818d3f0"
+      },
+      {
+        "index": 6,
+        "xml_text": "22X22",
+        "literal_va": "0x6818d3fc"
+      },
+      {
+        "index": 7,
+        "xml_text": "24X24",
+        "literal_va": "0x6818d408"
+      },
+      {
+        "index": 8,
+        "xml_text": "26X26",
+        "literal_va": "0x6818d414"
+      },
+      {
+        "index": 9,
+        "xml_text": "32X32",
+        "literal_va": "0x6818d420"
+      },
+      {
+        "index": 10,
+        "xml_text": "36X36",
+        "literal_va": "0x6818d42c"
+      },
+      {
+        "index": 11,
+        "xml_text": "40X40",
+        "literal_va": "0x6818d438"
+      },
+      {
+        "index": 12,
+        "xml_text": "44X44",
+        "literal_va": "0x6818d444"
+      },
+      {
+        "index": 13,
+        "xml_text": "48X48",
+        "literal_va": "0x6818d450"
+      },
+      {
+        "index": 14,
+        "xml_text": "52X52",
+        "literal_va": "0x6818d45c"
+      },
+      {
+        "index": 15,
+        "xml_text": "64X64",
+        "literal_va": "0x6818d468"
+      },
+      {
+        "index": 16,
+        "xml_text": "72X72",
+        "literal_va": "0x6818d474"
+      },
+      {
+        "index": 17,
+        "xml_text": "80X80",
+        "literal_va": "0x6818d480"
+      },
+      {
+        "index": 18,
+        "xml_text": "88X88",
+        "literal_va": "0x6818d48c"
+      },
+      {
+        "index": 19,
+        "xml_text": "96X96",
+        "literal_va": "0x6818d498"
+      },
+      {
+        "index": 20,
+        "xml_text": "104X104",
+        "literal_va": "0x6818d4a4"
+      },
+      {
+        "index": 21,
+        "xml_text": "120X120",
+        "literal_va": "0x6818d4b4"
+      },
+      {
+        "index": 22,
+        "xml_text": "132X132",
+        "literal_va": "0x6818d4c4"
+      },
+      {
+        "index": 23,
+        "xml_text": "144X144",
+        "literal_va": "0x6818d4d4"
+      },
+      {
+        "index": 24,
+        "xml_text": "8X18",
+        "literal_va": "0x6818d4e4"
+      },
+      {
+        "index": 25,
+        "xml_text": "8X32",
+        "literal_va": "0x6818d4f0"
+      },
+      {
+        "index": 26,
+        "xml_text": "12X26",
+        "literal_va": "0x6818d4fc"
+      },
+      {
+        "index": 27,
+        "xml_text": "12X36",
+        "literal_va": "0x6818d508"
+      },
+      {
+        "index": 28,
+        "xml_text": "16X36",
+        "literal_va": "0x6818d514"
+      },
+      {
+        "index": 29,
+        "xml_text": "16X48",
+        "literal_va": "0x6818d520"
+      },
+      {
+        "index": 30,
+        "xml_text": "8X48",
+        "literal_va": "0x6818d52c"
+      },
+      {
+        "index": 31,
+        "xml_text": "8X64",
+        "literal_va": "0x6818d538"
+      },
+      {
+        "index": 32,
+        "xml_text": "8X80",
+        "literal_va": "0x6818d544"
+      },
+      {
+        "index": 33,
+        "xml_text": "8X96",
+        "literal_va": "0x6818d550"
+      },
+      {
+        "index": 34,
+        "xml_text": "8X120",
+        "literal_va": "0x6818d55c"
+      },
+      {
+        "index": 35,
+        "xml_text": "8X144",
+        "literal_va": "0x6818d568"
+      },
+      {
+        "index": 36,
+        "xml_text": "12X64",
+        "literal_va": "0x6818d574"
+      },
+      {
+        "index": 37,
+        "xml_text": "12X88",
+        "literal_va": "0x6818d580"
+      },
+      {
+        "index": 38,
+        "xml_text": "16X64",
+        "literal_va": "0x6818d58c"
+      },
+      {
+        "index": 39,
+        "xml_text": "20X36",
+        "literal_va": "0x6818d598"
+      },
+      {
+        "index": 40,
+        "xml_text": "20X44",
+        "literal_va": "0x6818d5a4"
+      },
+      {
+        "index": 41,
+        "xml_text": "22X48",
+        "literal_va": "0x6818d5b0"
+      },
+      {
+        "index": 42,
+        "xml_text": "24X48",
+        "literal_va": "0x6818d5bc"
+      },
+      {
+        "index": 43,
+        "xml_text": "24X64",
+        "literal_va": "0x6818d5c8"
+      },
+      {
+        "index": 44,
+        "xml_text": "26X40",
+        "literal_va": "0x6818d5d4"
+      },
+      {
+        "index": 45,
+        "xml_text": "26X48",
+        "literal_va": "0x6818d5e0"
+      },
+      {
+        "index": 46,
+        "xml_text": "26X64",
+        "literal_va": "0x6818d5ec"
+      },
+      {
+        "index": 47,
+        "xml_text": "AUTO",
+        "literal_va": "0x6818d5f8"
+      },
+      {
+        "index": 48,
+        "xml_text": "AUTOREC",
+        "literal_va": "0x6818d604"
+      }
+    ],
+    "reader_reference": "68139e57: push dword ptr [esi*4 + 0x681ab190]"
+  },
+  {
+    "table_va": "0x681ab444",
+    "name": "EFontTextDirection",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "LTR",
+        "literal_va": "0x6818e004"
+      },
+      {
+        "index": 1,
+        "xml_text": "RTL",
+        "literal_va": "0x6818e00c"
+      }
+    ],
+    "reader_reference": "68139f16: push dword ptr [esi*4 + 0x681ab444]"
+  },
+  {
+    "table_va": "0x681ab254",
+    "name": "EMeasurementUnits",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "hmm",
+        "literal_va": "0x6818d614"
+      },
+      {
+        "index": 1,
+        "xml_text": "dots",
+        "literal_va": "0x6818d61c"
+      }
+    ],
+    "reader_reference": "68139f6e: push dword ptr [esi*4 + 0x681ab254]"
+  },
+  {
+    "table_va": "0x681ab2b0",
+    "name": "EVarDataResetMode",
+    "entries": [
+      {
+        "index": 0,
+        "xml_text": "ResetToDefaultVal",
+        "literal_va": "0x6818d7bc"
+      },
+      {
+        "index": 1,
+        "xml_text": "ContinueWithCurrentVal",
+        "literal_va": "0x6818d7e0"
+      },
+      {
+        "index": 2,
+        "xml_text": "PromptForValue",
+        "literal_va": "0x6818d810"
+      }
+    ],
+    "reader_reference": "68139fdb: push dword ptr [esi*4 + 0x681ab2b0]"
+  }
+]

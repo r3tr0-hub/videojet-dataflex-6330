@@ -1,0 +1,8 @@
+{
+  "ZBC2.dll": {
+    "sha256": "df4136842b7da9b20f6fc37c851d74016116609694c2eb7f3477e13ba8568fb1",
+    "image_base": "0x44680000",
+    "size": 702464
+  },
+  "prior_com_typelibs_sha256": "44a936a73f3b29b0c5dbbc6b8af12970714207a6613ffc27e015f8af2ae407bd"
+}
